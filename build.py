@@ -205,12 +205,6 @@ class Site:
 <span class="badge">{esc(ui["soon"])}</span>
 {decklet_links}</div>
 </article>
-<h2 class="section">Tools</h2>
-<article class="card app-card">
-<img class="icon md" src="assets/backup-icon.svg" alt="" width="72" height="72">
-<div><h3><a href="backup/">Tidelab Backup</a></h3><p>A private tool that keeps an encrypted backup of its owner's computer in the owner's own Google Drive.</p>
-<p class="links"><a href="backup/">{esc(ui["about"])}</a><a href="backup/privacy/">Privacy Policy</a><a href="backup/terms/">Terms of Use</a></p></div>
-</article>
 <h2 class="section">Contact</h2>
 <p>Questions, ideas or a bug to report? Write to <a href="mailto:{{{{SUPPORT_EMAIL}}}}">{{{{SUPPORT_EMAIL}}}}</a>.</p>"""
         self.shell("index.html", "en", "Tidelab: small apps, made with care", "", None, body,
