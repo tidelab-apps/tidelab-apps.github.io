@@ -22,6 +22,9 @@ BACKUP_UPDATED = "2026-11-01"
 EULA = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
 KINDS = ("privacy", "support", "terms")
 LANGS = ("en", "ru", "de")
+# English only for now (owner, 2026-11-01): the ru and de Decklet pages are still built and served at their
+# addresses, but no page links to them and there is no language switch. To bring the switch back, pass
+# {code: href} as langs to shell() again.
 
 # ---------------------------------------------------------------- texts that only the site has
 
@@ -235,11 +238,7 @@ class Site:
 <h2 class="section">{esc(ui["info"])}</h2>
 <div class="row" style="margin-top:0">{links}</div>
 <p style="margin-top:18px">{esc(ui["contact"])}: {rich(self.fill("{{SUPPORT_EMAIL}}"))}</p>"""
-        self.shell(base + "index.html", lang, d["title"], "Decklet", self.lang_links(base + "index.html", ""), body, d["intro"])
-
-    def lang_links(self, path: str, kind: str) -> dict:
-        root = "../" * path.count("/")
-        return {code: root + self.decklet_base(code) + (f"{kind}/" if kind else "") for code in LANGS}
+        self.shell(base + "index.html", lang, d["title"], "Decklet", None, body, d["intro"])
 
     def decklet_doc(self, lang: str, kind: str) -> None:
         legal = self.legal[lang]
@@ -250,7 +249,7 @@ class Site:
             for k in KINDS) + "</nav>"
         body = self.document(legal[f"{kind}_title"], legal["updated"], self.legal_updated, legal[kind], tabs)
         crumb = f'<a href="../">Decklet</a>'
-        self.shell(path, lang, legal[f"{kind}_title"], crumb, self.lang_links(path, kind), body, legal[f"{kind}_title"])
+        self.shell(path, lang, legal[f"{kind}_title"], crumb, None, body, legal[f"{kind}_title"])
 
     def backup(self) -> None:
         cards = "".join(f'<div class="card feature"><div class="dot" aria-hidden="true">✓</div><h3>{esc(h)}</h3><p>{rich(t).replace("drive.file", "<code>drive.file</code>")}</p></div>'
