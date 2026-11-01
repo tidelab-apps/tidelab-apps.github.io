@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F6F4F0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#100E1A" media="(prefers-color-scheme: dark)">
+<meta name="description" content="Tidelab Backup keeps an encrypted backup of its owner&#x27;s computer in the owner&#x27;s own Google Drive, with access only to its own files.">
+<title>Tidelab Backup: an encrypted backup in your own Google Drive</title>
+<link rel="icon" href="../assets/tidelab.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+<div class="wrap">
+<header class="top"><div class="brand-row"><a class="brand" href="../"><img src="../assets/tidelab.svg" alt="" width="32" height="32">Tidelab</a><span class="crumb">/ Backup</span></div></header>
+<main>
+<section class="app-hero">
+<img class="icon lg" src="../assets/backup-icon.svg" alt="Tidelab Backup" width="112" height="112">
+<div><h1>Tidelab Backup</h1><p>Encrypted backups in Google Drive</p><span class="badge">Private tool · not offered to the public</span></div>
+</section>
+<p style="font-size:1.15rem;margin:22px 0 0">Tidelab Backup keeps an encrypted backup of its owner's computer in the owner's own Google Drive. It runs on a schedule on that computer and makes a new copy every week.</p>
+<div class="grid" style="margin-top:28px"><div class="card feature"><div class="dot" aria-hidden="true">✓</div><h3>Encrypted before it leaves</h3><p>The backup is encrypted on the computer before it is uploaded. The Drive holds only encrypted data, with a password that never leaves the computer.</p></div><div class="card feature"><div class="dot" aria-hidden="true">✓</div><h3>Only its own files</h3><p>It uses the Google Drive permission <code>drive.file</code>: it can see only the files and folders it created itself, never anything else in the Drive.</p></div><div class="card feature"><div class="dot" aria-hidden="true">✓</div><h3>Nothing goes anywhere else</h3><p>There is no Tidelab server. Files go straight from the owner&#x27;s computer to the owner&#x27;s Drive. No analytics, no advertising, no sharing.</p></div><div class="card feature"><div class="dot" aria-hidden="true">✓</div><h3>Checked, then replaced</h3><p>After each weekly copy it reads back a part of the data and restores a few files as a test. Only then does it remove the older copy it made before.</p></div></div>
+<h2 class="section">How it works</h2>
+<p>The tool signs in to Google once, with the owner's own Google account, and keeps that sign-in on the computer. Each week it uploads only what changed since the last copy, checks the new copy and then removes the older one. Besides the encrypted backup, it can place copies of the owner's own media files, such as video recordings, in a separate folder that it created in the same Drive, so they can be watched there.</p>
+<h2 class="section">Who can use it</h2>
+<p>Only its owner, with their own Google account. There is no sign-up and no download: the tool is not offered to other people.</p>
+<div class="row"><a class="btn ghost" href="privacy/">Privacy Policy</a><a class="btn ghost" href="terms/">Terms of Use</a></div>
+<h2 class="section">Contact</h2>
+<p>Tidelab · <a href="mailto:tidelab.apps@gmail.com">tidelab.apps@gmail.com</a></p>
+</main>
+<footer><p>© 2026 Tidelab · <a href="mailto:tidelab.apps@gmail.com">tidelab.apps@gmail.com</a></p><p>This site uses no cookies, no analytics and no content from other sites.</p></footer>
+</div>
+</body>
+</html>
