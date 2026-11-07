@@ -18,6 +18,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 DECKLET_LEGAL = HERE.parents[1] / "ios-apps" / "srs-cards" / "Design" / "appstore" / "legal" / "build.py"
 YEAR = "2026"
+APP_STORE_URL = "https://apps.apple.com/app/id6829718725"
 BACKUP_UPDATED = "2026-11-01"
 EULA = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
 KINDS = ("privacy", "support", "terms")
@@ -29,13 +30,13 @@ LANGS = ("en", "ru", "de")
 # ---------------------------------------------------------------- texts that only the site has
 
 UI = {
-    "en": {"soon": "Coming soon to the App Store", "about": "About", "contact": "Contact",
+    "en": {"soon": "Available on the App Store", "about": "About", "contact": "Contact",
            "footer": "This site uses no cookies, no analytics and no content from other sites.",
            "free": "Free to study", "info": "Help and legal", "pro": "Decklet Pro", "home": "Tidelab"},
-    "ru": {"soon": "Скоро в App Store", "about": "О приложении", "contact": "Контакт",
+    "ru": {"soon": "Доступно в App Store", "about": "О приложении", "contact": "Контакт",
            "footer": "Этот сайт не использует cookies, аналитику и материалы с других сайтов.",
            "free": "Бесплатно", "info": "Помощь и документы", "pro": "Decklet Pro", "home": "Tidelab"},
-    "de": {"soon": "Bald im App Store", "about": "Über die App", "contact": "Kontakt",
+    "de": {"soon": "Im App Store verfügbar", "about": "Über die App", "contact": "Kontakt",
            "footer": "Diese Website nutzt keine Cookies, keine Analyse und keine Inhalte anderer Websites.",
            "free": "Kostenlos", "info": "Hilfe und Rechtliches", "pro": "Decklet Pro", "home": "Tidelab"},
 }
@@ -205,7 +206,7 @@ class Site:
 <article class="card app-card">
 <picture><source srcset="assets/decklet-icon-dark.png" media="(prefers-color-scheme: dark)"><img class="icon md" src="assets/decklet-icon-light.png" alt="" width="72" height="72"></picture>
 <div><h3>{decklet_name}</h3><p>{esc(d["tagline"])}. Flashcards with spaced repetition for iPhone.</p>
-<span class="badge">{esc(ui["soon"])}</span>
+<a class="btn" href="{APP_STORE_URL}">Get Decklet on the App Store</a>
 {decklet_links}</div>
 </article>
 <h2 class="section">Contact</h2>
@@ -230,11 +231,12 @@ class Site:
         links = "".join(f'<a class="btn ghost" href="{k}/">{esc(legal["links"][k])}</a>' for k in KINDS)
         body = f"""<section class="app-hero">
 <picture><source srcset="{root}assets/decklet-icon-dark.png" media="(prefers-color-scheme: dark)"><img class="icon lg" src="{root}assets/decklet-icon-light.png" alt="Decklet" width="112" height="112"></picture>
-<div><h1>Decklet</h1><p>{esc(d["tagline"])}</p><span class="badge">{esc(ui["soon"])}</span></div>
+<div><h1>Decklet</h1><p>{esc(d["tagline"])}</p><a class="btn" href="{APP_STORE_URL}">{esc(ui["soon"])}</a></div>
 </section>
 <p style="font-size:1.15rem;margin:22px 0 0">{esc(d["intro"])}</p>
 <ul class="pills">{"".join(f"<li>{esc(p)}</li>" for p in d["pills"])}</ul>
 <div class="grid" style="margin-top:28px">{"".join(cards)}</div>
+{('<h2 class="section">Start with your own cards</h2><p><a href="import-csv/">How to import a spreadsheet as flashcards</a> · <a href="sample-travel.csv" download>Try a five-card CSV sample</a></p>' if lang == 'en' else '')}
 <h2 class="section">{esc(ui["info"])}</h2>
 <div class="row" style="margin-top:0">{links}</div>
 <p style="margin-top:18px">{esc(ui["contact"])}: {rich(self.fill("{{SUPPORT_EMAIL}}"))}</p>"""
@@ -250,6 +252,39 @@ class Site:
         body = self.document(legal[f"{kind}_title"], legal["updated"], self.legal_updated, legal[kind], tabs)
         crumb = f'<a href="../">Decklet</a>'
         self.shell(path, lang, legal[f"{kind}_title"], crumb, None, body, legal[f"{kind}_title"])
+
+    def csv_guide(self) -> None:
+        body = f'''<article class="doc">
+<h1>Turn a spreadsheet into flashcards on your iPhone</h1>
+<p>From the small team that makes Decklet · 7 November 2026</p>
+<p>You do not need AI to turn a vocabulary list into study cards. A two-column spreadsheet is enough: put a question or word in the first column and its answer in the second.</p>
+<h2>Make a small file first</h2>
+<p>Start with five rows. Keep each card focused on one thing you want to recall. Save the sheet as a UTF-8 CSV file, or use tab-separated text. Decklet reads the first two columns as front and back.</p>
+<pre>front,back
+hello,bonjour
+thank you,merci
+please,s'il vous plaît
+water,eau
+the station,la gare</pre>
+<p><a href="../sample-travel.csv" download>Download this five-card example</a>. We wrote these simple travel vocabulary pairs for you to try; no sign-up is needed.</p>
+<h2>Import and check</h2>
+<ol><li>Open Decklet and choose Import, then CSV or TSV.</li>
+<li>Choose the file, or paste the two-column text.</li>
+<li>If the first row contains column names, turn on “First row is a header”.</li>
+<li>Check the preview and the number of skipped rows. Give the deck a name, then tap Import.</li>
+<li>Start studying and check the answer before you rate your recall.</li></ol>
+<h2>If a row looks wrong</h2>
+<p>Check that both columns have text. A comma inside a question or answer needs CSV quotes; exporting from your spreadsheet handles that for you. Try a five-row file before importing a larger collection, and keep the original file.</p>
+<h2>Share the material you choose</h2>
+<p>You can export a deck as CSV and share that file using the iPhone share sheet. The person receiving it can inspect it in a spreadsheet or import it into Decklet. Share only material you created or have permission to distribute; leave out personal information.</p>
+<h2>What is free</h2>
+<p>Manual cards, CSV import and spaced repetition are free in Decklet, without a daily card limit. AI card creation is an optional Pro feature and is not needed for this guide.</p>
+<p><a class="btn" href="{APP_STORE_URL}">Get Decklet on the App Store</a></p>
+<p><a href="../">About Decklet</a> · <a href="../privacy/">Privacy</a> · <a href="../support/">Help</a></p>
+</article>'''
+        self.shell("decklet/import-csv/index.html", "en", "Import CSV flashcards on iPhone · Decklet", '<a href="../">Decklet</a>', None, body,
+                   "A practical guide to importing a two-column CSV or TSV vocabulary list into Decklet on iPhone, with a free five-card sample.")
+        self.files["decklet/sample-travel.csv"] = "front,back\nhello,bonjour\nthank you,merci\nplease,s'il vous plaît\nwater,eau\nthe station,la gare\n"
 
     def backup(self) -> None:
         cards = "".join(f'<div class="card feature"><div class="dot" aria-hidden="true">✓</div><h3>{esc(h)}</h3><p>{rich(t).replace("drive.file", "<code>drive.file</code>")}</p></div>'
@@ -289,6 +324,8 @@ class Site:
             self.decklet(lang)
             for kind in KINDS:
                 self.decklet_doc(lang, kind)
+        if self.with_decklet:
+            self.csv_guide()
         self.backup()
         self.not_found()
 
