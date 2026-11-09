@@ -14,6 +14,7 @@ import re
 import shutil
 import sys
 from pathlib import Path
+from urllib.parse import urlencode
 
 HERE = Path(__file__).resolve().parent
 DECKLET_LEGAL = HERE.parents[1] / "ios-apps" / "srs-cards" / "Design" / "appstore" / "legal" / "build.py"
@@ -239,7 +240,7 @@ class Site:
 {('<h2 class="section">Start with your own cards</h2><p><a href="import-csv/">How to import a spreadsheet as flashcards</a> · <a href="sample-travel.csv" download>Try a five-card CSV sample</a></p>' if lang == 'en' else '')}
 <h2 class="section">{esc(ui["info"])}</h2>
 <div class="row" style="margin-top:0">{links}</div>
-<p style="margin-top:18px">{esc(ui["contact"])}: {rich(self.fill("{{SUPPORT_EMAIL}}"))}</p>"""
+{('<p><a href="offline-flashcards/">Move a small deck without an account</a> · <a href="exam-flashcards/">Turn exam notes into a first deck</a></p>' if lang == 'en' else '')}<p style="margin-top:18px">{esc(ui["contact"])}: {rich(self.fill("{{SUPPORT_EMAIL}}"))}</p>"""
         self.shell(base + "index.html", lang, d["title"], "Decklet", None, body, d["intro"])
 
     def decklet_doc(self, lang: str, kind: str) -> None:
@@ -286,6 +287,52 @@ the station,la gare</pre>
                    "A practical guide to importing a two-column CSV or TSV vocabulary list into Decklet on iPhone, with a free five-card sample.")
         self.files["decklet/sample-travel.csv"] = "front,back\nhello,bonjour\nthank you,merci\nplease,s'il vous plaît\nwater,eau\nthe station,la gare\n"
 
+    def use_case_guides(self) -> None:
+        guides = json.loads((HERE / "use_cases.json").read_text(encoding="utf-8"))
+        for guide in guides:
+            body = '<article class="doc">' + f'<h1>{esc(guide["heading"])}</h1>'
+            body += '<p>From the small team at Tidelab that makes Decklet · 9 November 2026</p>'
+            body += f'<p>{esc(guide["intro"])}</p>'
+            for section in guide["sections"]:
+                body += f'<h2>{esc(section["heading"])}</h2>'
+                body += ''.join(f'<p>{esc(p)}</p>' for p in section.get("paragraphs", []))
+                if "steps" in section:
+                    body += '<ol>' + ''.join(f'<li>{esc(p)}</li>' for p in section["steps"]) + '</ol>'
+                if "sample" in section:
+                    body += f'<pre style="white-space:pre-wrap;overflow-wrap:anywhere">{esc(section["sample"])}</pre>'
+            body += (f'<p><a href="/decklet/{esc(guide["sample_file"])}" download>Download the five-card example</a></p>'
+                     f'<p><a class="btn" href="{APP_STORE_URL}">Get Decklet on the App Store</a></p>'
+                     '<p><a href="/decklet/import-csv/">CSV import steps</a> · <a href="/decklet/">About Decklet</a> · '
+                     '<a href="/decklet/privacy/">Privacy</a> · <a href="/decklet/support/">Help</a></p></article>')
+            self.shell(f'decklet/{guide["slug"]}/index.html', 'en', guide["title"],
+                       '<a href="../">Decklet</a>', None, body, guide["description"])
+            self.files[f'decklet/{guide["sample_file"]}'] = guide["csv"]
+
+    def campaign_guides(self) -> None:
+        # No script, cookie or visitor identifier. Each source has its own static URL.
+        token = str(self.config.get("campaign_provider_token", ""))
+        if token and not re.fullmatch(r"[0-9]+", token):
+            raise ValueError("campaign_provider_token must be the numeric pt from an App Store Connect campaign link")
+        for slug, code in (("import-csv", "csv"), ("offline-flashcards", "offline"), ("exam-flashcards", "exam")):
+            path = f"decklet/{slug}/index.html"
+            original = self.files[path]
+            canonical = f'<link rel="canonical" href="https://tidelab-apps.github.io/decklet/{slug}/">'
+            self.files[path] = original.replace('</head>', canonical + '\n</head>')
+            canonical_page = self.files[path]
+            if not token:
+                continue
+            for source, suffix in (("site", ""), ("bsky", "from-bluesky/"), ("masto", "from-mastodon/")):
+                campaign = f"wf1{code}{source}"
+                url = "https://apps.apple.com/app/apple-store/id6829718725?" + urlencode(
+                    {"pt": token, "ct": campaign, "mt": "8"})
+                page = canonical_page.replace(APP_STORE_URL, esc(url))
+                if suffix:
+                    # Preserve all relative assets, sample links and navigation one level deeper.
+                    page = re.sub(r'(href|src)="(?!https?:|mailto:|/|#)([^"]*)"',
+                                  lambda m: f'{m[1]}="../{m[2]}"', page)
+                    page = page.replace('</head>', '<meta name="robots" content="noindex,follow">\n</head>')
+                self.files[f"decklet/{slug}/{suffix}index.html"] = page
+
     def backup(self) -> None:
         cards = "".join(f'<div class="card feature"><div class="dot" aria-hidden="true">✓</div><h3>{esc(h)}</h3><p>{rich(t).replace("drive.file", "<code>drive.file</code>")}</p></div>'
                         for h, t in BACKUP_FEATURES)
@@ -326,6 +373,8 @@ the station,la gare</pre>
                 self.decklet_doc(lang, kind)
         if self.with_decklet:
             self.csv_guide()
+            self.use_case_guides()
+            self.campaign_guides()
         self.backup()
         self.not_found()
 

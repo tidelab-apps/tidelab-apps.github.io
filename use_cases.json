@@ -1,0 +1,78 @@
+[
+  {
+    "slug": "offline-flashcards",
+    "title": "Offline flashcards without an account · Decklet",
+    "heading": "Move a small flashcard deck without creating an account",
+    "description": "A worked example for moving five cards into Decklet on iPhone with a two-column CSV, checking the import and keeping a portable copy.",
+    "intro": "Want to keep studying your own cards without another sign-in? Start with a small export you can inspect. Decklet lets you import a CSV and study on your iPhone without an account.",
+    "sample_file": "sample-everyday-spanish.csv",
+    "csv": "front,back\nthe key,la llave\nthe door,la puerta\nthe window,la ventana\nthe table,la mesa\nthe chair,la silla\n",
+    "sections": [
+      {
+        "heading": "Try five everyday Spanish words",
+        "paragraphs": ["Here is a small original example. The front asks for the Spanish word; the back gives the answer. Import it as a deck named Everyday Spanish."],
+        "sample": "front,back\nthe key,la llave\nthe door,la puerta\nthe window,la ventana\nthe table,la mesa\nthe chair,la silla"
+      },
+      {
+        "heading": "Move a test deck first",
+        "steps": [
+          "If you already have cards, export a copy from your current tool. Keep the original file and collection.",
+          "For this workflow, use a UTF-8 CSV with the question in column one and the answer in column two. Copy five representative text cards into a small test file.",
+          "In Decklet choose Import, then CSV or TSV. Choose the file, or paste the two-column text. Turn on First row is a header if your first row contains column names.",
+          "Check that the preview shows the expected fronts and backs, five cards found and no skipped rows. Name the deck and tap Import.",
+          "Open a study session. For the key, try to recall la llave before revealing the answer. Rate what you actually remembered."
+        ]
+      },
+      {
+        "heading": "Check what transfers",
+        "paragraphs": ["This two-column CSV carries front and back text. Do not expect it to carry images, audio, tags or your previous study schedule. Inspect your test deck before moving a larger collection.", "Decklet also offers .apkg import, but this guide uses CSV so you can inspect the example in any spreadsheet. A successful text import is not proof that a different file format will preserve every part of a collection."]
+      },
+      {
+        "heading": "Keep a copy you control",
+        "paragraphs": ["Export a deck as CSV when you want a portable text copy; use Decklet's file backup for a separate backup. Keep those files somewhere you choose. No account also means there is no Decklet cloud account to restore your cards from."]
+      },
+      {
+        "heading": "What you need",
+        "paragraphs": ["Decklet requires an iPhone running iOS 26 or later. Manual cards, CSV import and spaced repetition are free without daily limits or ads. No account is needed, and studying works offline. AI creation is optional Pro functionality and is not needed for this example."]
+      }
+    ]
+  },
+  {
+    "slug": "exam-flashcards",
+    "title": "Turn exam notes into flashcards on iPhone · Decklet",
+    "heading": "Turn one page of exam notes into five questions",
+    "description": "A worked biology example: split a broad note into five recall questions, import a small CSV and review the answers in Decklet on iPhone.",
+    "intro": "If your exam is close, start with a small section of your own notes. Write questions you can answer before looking, rather than copying a paragraph onto the back of one card. Here is a five-card biology example you can adapt.",
+    "sample_file": "sample-biology.csv",
+    "csv": "front,back\nWhat process uses light energy to make sugars in plants?,Photosynthesis\nWhich gas do plants take in for photosynthesis?,Carbon dioxide\nWhich gas is released during oxygenic photosynthesis?,Oxygen\nWhat green pigment absorbs light for photosynthesis?,Chlorophyll\nIn which organelle does photosynthesis occur in plant cells?,Chloroplast\n",
+    "sections": [
+      {
+        "heading": "Start with a short note",
+        "paragraphs": ["Example note: In plant cells, photosynthesis takes place in chloroplasts. Chlorophyll absorbs light. The process uses carbon dioxide and water to make sugars and releases oxygen.", "A prompt such as Explain photosynthesis asks for several things at once. For this first deck, separate the process, gases, pigment and location into questions you can check individually."]
+      },
+      {
+        "heading": "The resulting first deck",
+        "sample": "front,back\nWhat process uses light energy to make sugars in plants?,Photosynthesis\nWhich gas do plants take in for photosynthesis?,Carbon dioxide\nWhich gas is released during oxygenic photosynthesis?,Oxygen\nWhat green pigment absorbs light for photosynthesis?,Chlorophyll\nIn which organelle does photosynthesis occur in plant cells?,Chloroplast",
+        "paragraphs": ["These are original introductory examples, not a complete syllabus. Check terminology against your course notes and add questions about the parts your course expects you to explain."]
+      },
+      {
+        "heading": "Import and try a session",
+        "steps": [
+          "Download the example CSV below or make your own two-column file. Each row should have one question and its answer.",
+          "Open Decklet, choose Import, then CSV or TSV, and select the file. Turn on First row is a header.",
+          "Check the preview: five cards found, no skipped rows. Name the deck Biology: photosynthesis and tap Import.",
+          "Read a question and try to answer before revealing the back. Rate your actual recall. If you missed the gas question, check that note again and try explaining it in your own words.",
+          "Use later review sessions for cards that are due. Keep room for practice problems and longer explanations that a short fact card cannot cover."
+        ]
+      },
+      {
+        "heading": "When the exam is close",
+        "paragraphs": ["Choose a manageable topic and check every answer against your material. If a card is vague, rewrite the question. A first session can show which answers you missed; it cannot promise an exam result or replace practising the kind of questions your exam uses."]
+      },
+      {
+        "heading": "No scan or subscription needed",
+        "paragraphs": ["This workflow uses manual text and CSV import. Those features and spaced repetition are free in Decklet without daily limits or ads; no account is needed. AI creation is an optional Pro feature and is not used here. Decklet requires an iPhone running iOS 26 or later."]
+      }
+    ]
+  }
+]
