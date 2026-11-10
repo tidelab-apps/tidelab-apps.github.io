@@ -383,6 +383,29 @@ the station,la gare</pre>
             self.shell(base + "index.html", "en", page["title"], '<a href="/chordcard/">ChordParcel</a>',
                        None, body, page["description"])
 
+    def jpegceiling_pages(self) -> None:
+        """Audited EN/RU help pages; no release announcement or download link."""
+        data = json.loads((HERE / "jpegceiling.json").read_text(encoding="utf-8"))
+        labels = {"en": {"privacy": "Privacy Policy", "support": "Support"},
+                  "ru": {"privacy": "Конфиденциальность", "support": "Поддержка"}}
+        for lang, pages in data["pages"].items():
+            for kind, page in pages.items():
+                base = f"jpegceiling/{'' if lang == 'en' else lang + '/'}{kind}/"
+                tabs = '<nav class="tabs" aria-label="JPEGCeiling">' + "".join(
+                    f'<span aria-current="page">{esc(label)}</span>' if key == kind
+                    else f'<a href="../{key}/">{esc(label)}</a>'
+                    for key, label in labels[lang].items()) + '</nav>'
+                parts = [tabs, f'<h1>{esc(page["title"])}</h1>']
+                if kind == "privacy":
+                    updated_label = "Last updated" if lang == "en" else "Обновлено"
+                    parts.append(f'<p class="updated">{updated_label}: {esc(data["updated"])}</p>')
+                parts.extend(f'<p>{rich(paragraph)}</p>' for paragraph in page["text"].split("\n\n"))
+                body = '<article class="doc">' + "\n".join(parts) + '</article>'
+                root = "../" * (2 if lang == "en" else 3)
+                langs = {"en": f"{root}jpegceiling/{kind}/",
+                         "ru": f"{root}jpegceiling/ru/{kind}/"}
+                self.shell(base + "index.html", lang, page["title"], "JPEGCeiling", langs, body, page["title"])
+
     def not_found(self) -> None:
         body = '<section class="hero"><h1>Page not found</h1><p class="lead">This page does not exist. <a href="/">Go to the Tidelab home page</a>.</p></section>'
         self.shell("404.html", "en", "Page not found · Tidelab", "", None, body, "Page not found")
@@ -402,6 +425,7 @@ the station,la gare</pre>
             self.campaign_guides()
         self.backup()
         self.chordcard_pages()
+        self.jpegceiling_pages()
         self.not_found()
 
 

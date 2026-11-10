@@ -1,0 +1,25 @@
+{
+  "updated": "2026-11-10",
+  "pages": {
+    "en": {
+      "privacy": {
+        "title": "JPEGCeiling privacy policy",
+        "text": "JPEGCeiling processes the photo you select on your device. Tidelab does not receive your photos through JPEGCeiling. The app does not require an account. Between sessions, it keeps only your last valid numeric size settings, not a photo history.\n\nWhile a result is open, the app retains a temporary input file and keeps the prepared JPEG in memory so you can share or save again. Closing the result, selecting another photo, cancelling import or preparation, an import or preparation error, or entering the background outside a system operation clears the working photo and result. Changing limits from the result discards that result but keeps the selected photo for another run.\n\nFiles needed for an active system picker, share or export operation remain available until it finishes or is cancelled. The separate temporary file used for sharing or exporting is removed when that operation ends. Sharing or saving does not by itself close the result or clear the input copy. Leftover temporary files are removed on the next launch after a crash. Copies you explicitly export remain in the destination you choose.\n\nSource metadata is not copied to the output. Importing an item from iCloud or another provider, or sharing through another service, is handled by that provider under its own policy. Contact: tidelab.apps@gmail.com."
+      },
+      "support": {
+        "title": "JPEGCeiling support",
+        "text": "Choose one JPEG or supported HEIC photo from Photos or Files. Enter a positive whole-number file size limit in KB and a maximum long edge in pixels. 1 KB is 1,000 bytes. The app may reduce dimensions further to meet the file size limit. Preview the result and check its bytes and dimensions before sharing or saving the JPEG.\n\nPNG, animation and batch processing are not supported. If you cancel import or preparation, or an import or preparation error occurs, choose the photo again before retrying. If preparation fails, try a larger file size limit or a different supported photo. A website may have other requirements; acceptance is not guaranteed. A cloud-only photo may need to download before import.\n\nFor help, email tidelab.apps@gmail.com with the app version, iOS version, your numeric limits and the error message. Please do not send personal photos or sensitive documents."
+      }
+    },
+    "ru": {
+      "privacy": {
+        "title": "Конфиденциальность JPEGCeiling",
+        "text": "JPEGCeiling обрабатывает выбранное фото на вашем устройстве. Tidelab не получает ваши фото через JPEGCeiling. Аккаунт не требуется. Между сеансами приложение сохраняет только последние корректные числовые ограничения, без истории фото.\n\nПока открыт результат, приложение хранит временную копию исходника в файле, а готовый JPEG — в памяти для повторной отправки или сохранения. Рабочее фото и результат удаляются при закрытии результата, выборе другого фото, отмене импорта или подготовки, ошибке импорта или подготовки либо уходе приложения в фон вне системной операции. Изменение пределов с экрана результата удаляет прежний результат, сохраняя выбранное фото для новой подготовки.\n\nФайлы для активного системного выбора, отправки или экспорта доступны до завершения или отмены операции. Отдельный временный файл для отправки или экспорта удаляется по окончании операции. Сама отправка или сохранение не закрывает результат и не удаляет копию исходника. После сбоя остатки временных файлов удаляются при следующем запуске. Явно экспортированные копии остаются в выбранном месте.\n\nМетаданные исходника в результат не копируются. Импорт из iCloud или другого сервиса и отправка через сторонний сервис выполняются этим сервисом по его правилам. Контакт: tidelab.apps@gmail.com."
+      },
+      "support": {
+        "title": "Поддержка JPEGCeiling",
+        "text": "Выберите одно фото в JPEG или поддерживаемом HEIC из Фото или Файлов. Задайте положительные целые пределы веса в KB и длинной стороны в пикселях. 1 KB = 1000 байтов. Для нужного веса приложение может дополнительно уменьшить разрешение. Проверьте изображение, байты и размеры перед отправкой или сохранением JPEG.\n\nPNG, анимация и пакетная обработка не поддерживаются. После отмены импорта или подготовки, а также после ошибки импорта либо подготовки выберите фото заново перед повторной попыткой. При ошибке подготовки попробуйте больший предел веса или другое поддерживаемое фото. У сайта могут быть другие требования; приём файла не гарантируется. Фото из облака может потребоваться загрузить перед импортом.\n\nДля помощи напишите на tidelab.apps@gmail.com версию приложения и iOS, числовые пределы и текст ошибки. Не присылайте личные фото или конфиденциальные документы."
+      }
+    }
+  }
+}
