@@ -1,0 +1,59 @@
+{
+  "updated": "2026-11-10",
+  "pages": {
+    "en": {
+      "privacy": {
+        "title": "SRTPatch privacy policy",
+        "description": "How SRTPatch handles subtitle files, local settings, temporary copies and support messages.",
+        "paragraphs": [
+          "SRTPatch is a Tidelab app currently in development. It is not available on the App Store. This policy describes its current implementation. Contact: tidelab.apps@gmail.com.",
+          "SRTPatch checks and shifts one user-selected UTF-8 SRT subtitle file on your device. The app does not send subtitle contents to Tidelab or run an account, analytics, advertising or tracking service. It has no third-party SDK, AI service or automatic content sync.",
+          "Between sessions, the app keeps four local settings: the last time shift, whether a range is selected, and the range's first and last positions. It does not keep subtitle contents, filenames, file paths or a file history in these settings. Choosing new values replaces the previous settings.",
+          "Import creates a temporary working copy. Saving or sharing prepares a new copy without changing your original. Temporary working copies are removed when their session ends; copies needed by an active system save or share operation remain until that operation finishes or is dismissed. Leftovers from interrupted sessions are removed on the next launch. Moving the app into the background does not itself delete these files. Cleanup is ordinary file removal, not a guarantee of secure erasure.",
+          "You choose the file source and the save or share destination. A cloud Files provider, iCloud or a sharing recipient may transfer or store a file under its own rules. Exported copies remain in the destination you choose; the app's temporary cleanup does not delete them. You manage those copies through the destination service. Apple manages system diagnostics and device backups separately under its own privacy terms: https://www.apple.com/legal/privacy/.",
+          "Contacting support is optional and separate from processing a file in the app. The app does not automatically send email. If you write to tidelab.apps@gmail.com, we receive your address, message and any attachments you choose to send, and use them to respond to your request. Our mailbox uses Gmail; Google and your email provider process the correspondence under their own policies. Google's policy: https://policies.google.com/privacy. Please do not send confidential subtitle files or other sensitive information. For privacy questions or a request to delete support correspondence, email the same address. We do not promise a fixed retention period or deletion of copies controlled by email providers.",
+          "These support and privacy pages are hosted on GitHub Pages. The pages contain no analytics, scripts, cookies or contact forms added by Tidelab, and load their styles and images from this site. GitHub logs visitors' IP addresses for security purposes, including visits without a GitHub account. GitHub handles hosting data under its privacy statement: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. Website visits and support emails are separate from the app's local subtitle processing."
+        ]
+      },
+      "support": {
+        "title": "SRTPatch support",
+        "description": "Help with checking an SRT file, shifting subtitle times and saving a new copy in SRTPatch.",
+        "paragraphs": [
+          "SRTPatch is a Tidelab app currently in development and is not available on the App Store.",
+          "Open one UTF-8 .srt file from Files, up to 2,000,000 bytes and 5,000 subtitle entries. Review the reported timing, empty-subtitle and numbering issues. Invalid input must be corrected before export. Overlaps can be intentional and need your confirmation; any numbering changes need your explicit choice.",
+          "Enter a positive or negative shift in whole milliseconds. Apply it to all subtitles or a range of positions in the file. A shift that would produce an invalid time is rejected as a whole. This corrects a constant offset; it does not correct timing drift.",
+          "Compare the original and resulting start and end times before saving or sharing a new copy. Your source file is left unchanged. Export uses UTF-8, LF line endings, sequential numbering and no BOM, while preserving subtitle text, line breaks, Unicode and literal tags. Choose the destination in the system save or share interface. Cloud providers and sharing services may need a connection and handle the file under their own rules.",
+          "SRTPatch works with SRT only. It does not play video, transcribe or translate speech, burn subtitles into video or convert other subtitle formats. For a rejected file, check its encoding, size and reported errors. For a failed save or share, keep your original, check the destination and its available storage or connection, then try again. Do not treat the temporary working copy as a backup.",
+          "Need help? Email tidelab.apps@gmail.com with your app version, iOS version, the exact error and steps to reproduce it. Please do not send confidential subtitle files. If needed, include a small example you have permission to share, with personal information removed. See the Privacy Policy for how support correspondence is handled."
+        ]
+      }
+    },
+    "ru": {
+      "privacy": {
+        "title": "Конфиденциальность SRTPatch",
+        "description": "Как SRTPatch обрабатывает субтитры, локальные настройки, временные копии и письма в поддержку.",
+        "paragraphs": [
+          "SRTPatch — приложение Tidelab в разработке. Оно пока недоступно в App Store. Эта политика описывает текущую реализацию. Контакт: tidelab.apps@gmail.com.",
+          "SRTPatch проверяет и сдвигает время в одном выбранном вами файле субтитров UTF-8 SRT на устройстве. Приложение не отправляет содержимое субтитров в Tidelab. В нём нет аккаунтов, аналитики, рекламы, отслеживания, сторонних SDK, ИИ-сервисов или автоматической синхронизации содержимого.",
+          "Между сеансами приложение сохраняет четыре локальные настройки: последний сдвиг времени, выбор использования диапазона, его первую и последнюю позиции. В этих настройках нет содержимого субтитров, имён или путей файлов и истории файлов. Новые значения заменяют предыдущие настройки.",
+          "При импорте создаётся временная рабочая копия. Сохранение или отправка подготавливают новую копию, не меняя исходный файл. Временные рабочие копии удаляются при завершении сеанса; файлы для активной системной операции сохранения или отправки остаются до её завершения или закрытия. Остатки прерванных сеансов удаляются при следующем запуске. Сам по себе переход приложения в фон не удаляет эти файлы. Очистка означает обычное удаление файлов, без гарантии безвозвратного стирания.",
+          "Вы сами выбираете источник файла и место сохранения или получателя. Облачный сервис в «Файлах», iCloud или сервис отправки может передавать и хранить файл по своим правилам. Экспортированные копии остаются в выбранном месте; очистка временных файлов приложения их не удаляет. Управляйте ими через выбранный сервис. Apple отдельно управляет системной диагностикой и резервными копиями устройства по своим условиям: https://www.apple.com/legal/privacy/.",
+          "Обращение в поддержку добровольно и не связано с обработкой файла в приложении. Приложение не отправляет письма автоматически. Если вы пишете на tidelab.apps@gmail.com, мы получаем ваш адрес, сообщение и выбранные вами вложения и используем их для ответа на запрос. Наш ящик работает через Gmail; Google и ваш почтовый сервис обрабатывают переписку по своим правилам. Политика Google: https://policies.google.com/privacy. Не присылайте конфиденциальные субтитры и другие чувствительные сведения. По вопросам конфиденциальности или с просьбой удалить переписку напишите на тот же адрес. Мы не обещаем фиксированный срок хранения или удаление копий, которыми управляют почтовые сервисы.",
+          "Эти страницы поддержки и конфиденциальности размещены на GitHub Pages. Tidelab не добавляет на них аналитику, скрипты, cookies или контактные формы; стили и изображения загружаются с этого сайта. GitHub сохраняет IP-адреса посетителей для безопасности, в том числе без входа в аккаунт GitHub. Данные хостинга обрабатываются по политике GitHub: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. Посещение сайта и письма в поддержку отделены от локальной обработки субтитров в приложении."
+        ]
+      },
+      "support": {
+        "title": "Поддержка SRTPatch",
+        "description": "Помощь с проверкой SRT, сдвигом времени субтитров и сохранением новой копии в SRTPatch.",
+        "paragraphs": [
+          "SRTPatch — приложение Tidelab в разработке. Оно пока недоступно в App Store.",
+          "Откройте один файл .srt в кодировке UTF-8 через «Файлы»: до 2 000 000 байт и 5000 реплик. Просмотрите сообщения об ошибках времени, пустых репликах и нумерации. Ошибки исходного файла нужно исправить до экспорта. Пересечения интервалов могут быть намеренными и требуют вашего подтверждения; изменения нумерации — явного выбора.",
+          "Введите положительный или отрицательный сдвиг в целых миллисекундах. Примените его ко всем репликам или диапазону позиций в файле. Если сдвиг создаёт недопустимое время, вся операция отклоняется. Это исправление постоянного смещения, а не постепенно нарастающего рассинхрона.",
+          "Сравните исходное и новое время начала и конца перед сохранением или отправкой новой копии. Исходный файл не меняется. Экспорт: UTF-8, переносы строк LF, последовательная нумерация, без BOM; текст субтитров, переносы внутри реплик, Unicode и буквальные теги сохраняются. Выберите место в системном окне сохранения или отправки. Облачным сервисам и сервисам отправки может потребоваться подключение; они обрабатывают файл по своим правилам.",
+          "SRTPatch работает только с SRT. Он не воспроизводит видео, не распознаёт и не переводит речь, не встраивает субтитры в видео и не конвертирует другие форматы. Если файл отклонён, проверьте кодировку, размер и указанные ошибки. При ошибке сохранения или отправки сохраните исходник, проверьте место назначения, доступную память или подключение и повторите попытку. Временная рабочая копия не заменяет резервную.",
+          "Нужна помощь? Напишите на tidelab.apps@gmail.com: укажите версии приложения и iOS, точную ошибку и шаги для её повторения. Не отправляйте конфиденциальные субтитры. При необходимости приложите небольшой пример, которым вы вправе поделиться, без личных данных. Обработка переписки описана на странице конфиденциальности."
+        ]
+      }
+    }
+  }
+}

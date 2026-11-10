@@ -406,6 +406,30 @@ the station,la gare</pre>
                          "ru": f"{root}jpegceiling/ru/{kind}/"}
                 self.shell(base + "index.html", lang, page["title"], "JPEGCeiling", langs, body, page["title"])
 
+    def srtcheck_pages(self) -> None:
+        """Source-audited SRTPatch help pages at the app's stable technical route."""
+        data = json.loads((HERE / "srtcheck.json").read_text(encoding="utf-8"))
+        labels = {"en": {"privacy": "Privacy Policy", "support": "Support"},
+                  "ru": {"privacy": "Конфиденциальность", "support": "Поддержка"}}
+        for lang, pages in data["pages"].items():
+            for kind, page in pages.items():
+                base = f"srtcheck/{'' if lang == 'en' else lang + '/'}{kind}/"
+                tabs = '<nav class="tabs" aria-label="SRTPatch">' + "".join(
+                    f'<span aria-current="page">{esc(label)}</span>' if key == kind
+                    else f'<a href="../{key}/">{esc(label)}</a>'
+                    for key, label in labels[lang].items()) + '</nav>'
+                parts = [tabs, f'<h1>{esc(page["title"])}</h1>']
+                if kind == "privacy":
+                    updated_label = "Last updated" if lang == "en" else "Обновлено"
+                    parts.append(f'<p class="updated">{updated_label}: {esc(data["updated"])}</p>')
+                parts.extend(f'<p>{rich(paragraph)}</p>' for paragraph in page["paragraphs"])
+                body = '<article class="doc">' + "\n".join(parts) + '</article>'
+                root = "../" * (2 if lang == "en" else 3)
+                langs = {"en": f"{root}srtcheck/{kind}/",
+                         "ru": f"{root}srtcheck/ru/{kind}/"}
+                self.shell(base + "index.html", lang, page["title"], "SRTPatch", langs,
+                           body, page["description"])
+
     def countsession_pages(self) -> None:
         """Candidate-audited privacy/support, using the existing document shell."""
         data = json.loads((HERE / "countsession.json").read_text(encoding="utf-8"))
@@ -444,6 +468,7 @@ the station,la gare</pre>
         self.backup()
         self.chordcard_pages()
         self.jpegceiling_pages()
+        self.srtcheck_pages()
         self.countsession_pages()
         self.not_found()
 
