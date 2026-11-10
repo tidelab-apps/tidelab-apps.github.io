@@ -406,6 +406,24 @@ the station,la gare</pre>
                          "ru": f"{root}jpegceiling/ru/{kind}/"}
                 self.shell(base + "index.html", lang, page["title"], "JPEGCeiling", langs, body, page["title"])
 
+    def countsession_pages(self) -> None:
+        """Candidate-audited privacy/support, using the existing document shell."""
+        data = json.loads((HERE / "countsession.json").read_text(encoding="utf-8"))
+        labels = {"privacy": "Privacy Policy", "support": "Support"}
+        for kind, label in labels.items():
+            page = data[kind]
+            tabs = '<nav class="tabs" aria-label="CountSession">' + "".join(
+                f'<span aria-current="page">{esc(name)}</span>' if key == kind
+                else f'<a href="../{key}/">{esc(name)}</a>'
+                for key, name in labels.items()) + '</nav>'
+            parts = [tabs, f'<h1>{esc(page["title"])}</h1>']
+            if kind == "privacy":
+                parts.append(f'<p class="updated">Last updated: {esc(data["updated"])}</p>')
+            parts.extend(f'<p>{rich(self.fill(paragraph))}</p>' for paragraph in page["paragraphs"])
+            body = '<article class="doc">' + "\n".join(parts) + '</article>'
+            self.shell(f"countsession/{kind}/index.html", "en", page["title"], "CountSession",
+                       None, body, page["description"])
+
     def not_found(self) -> None:
         body = '<section class="hero"><h1>Page not found</h1><p class="lead">This page does not exist. <a href="/">Go to the Tidelab home page</a>.</p></section>'
         self.shell("404.html", "en", "Page not found · Tidelab", "", None, body, "Page not found")
@@ -426,6 +444,7 @@ the station,la gare</pre>
         self.backup()
         self.chordcard_pages()
         self.jpegceiling_pages()
+        self.countsession_pages()
         self.not_found()
 
 

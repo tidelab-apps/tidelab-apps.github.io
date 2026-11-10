@@ -1,0 +1,27 @@
+{
+  "updated": "2026-11-10",
+  "privacy": {
+    "title": "CountSession privacy policy",
+    "description": "How CountSession stores counts locally, handles system backups and responds to support requests.",
+    "paragraphs": [
+      "CountSession is provided by {{OPERATOR_NAME}}. Contact: tidelab.apps@gmail.com.",
+      "CountSession stores your item names, expected quantities, counts and completed checks locally on your device. The app does not send this content to Tidelab or an analytics service. It has no app account, advertising, tracking, telemetry or third-party analytics SDK. It has no in-app purchases or subscriptions.",
+      "Saved counts remain on your device between sessions. Completed checks cannot be edited or deleted within the app. If a saved file is damaged or uses a newer data format that this version cannot read, the app keeps that file separately on your device and starts with an empty list, with a notice. This does not recover the unreadable file's contents.",
+      "CountSession works offline. It does not include cloud sync or a separate backup, import or export feature. Its local files are eligible for the standard iPhone backup, depending on your device's backup settings. Apple manages system backups; Tidelab does not receive them. Deleting the app removes its local data, including retained unreadable files. Copies in device backups are managed separately through your system backup settings. Do not rely on CountSession to preserve data after app deletion or to restore it from a backup.",
+      "The purchase and download of the app are handled by Apple under Apple's privacy terms: https://www.apple.com/legal/privacy/. CountSession does not receive your payment details.",
+      "If you email tidelab.apps@gmail.com, your email provider sends us the message and address you provide. We use them to respond to your support request. This correspondence is separate from the app's local data. Please do not send sensitive item lists or quantities. For privacy questions or to request deletion of a support message, contact tidelab.apps@gmail.com."
+    ]
+  },
+  "support": {
+    "title": "CountSession support",
+    "description": "Help with expected quantities, actual counts, completed checks and local data in CountSession.",
+    "paragraphs": [
+      "CountSession is currently in development and is not available on the App Store.",
+      "Add items to your list and enter their expected quantities. Start a check and enter an actual quantity for every item. Enter 0 explicitly if none remain. Review the differences, correct any count, then confirm completion to save the result in history.",
+      "Only one check can be open at a time. Return to it to continue, or confirm that you want to discard it. Finish or discard the open check before changing your list. Completed checks cannot be edited or deleted within the app; updating your list does not change them.",
+      "CountSession has one list of up to 100 items. Quantities must be whole numbers from 0 to 999999. It has no sync, import or export. Standard iPhone backups may include its data, depending on your settings; CountSession has no separate backup or restore tool. Deleting the app removes its local data.",
+      "If a change cannot be saved, the app keeps the last successfully saved state. Check the error, make sure your device has available storage, and retry. Do not delete the app as a troubleshooting step if you need to keep its local data. If you see a notice about an unreadable saved file, the app has kept that file separately and started empty; automatic recovery is not promised.",
+      "Need help? Email tidelab.apps@gmail.com with your iOS version, app version, the error message and steps to reproduce the problem. Please avoid sending personal item lists or quantities. App purchases and refund requests are handled through Apple: https://support.apple.com/118223."
+    ]
+  }
+}
