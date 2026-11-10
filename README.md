@@ -3,6 +3,7 @@
 Static pages for Tidelab and its apps, served by GitHub Pages from the `main` branch (root folder).
 
 - `/` Tidelab home, `/decklet/` with `privacy/`, `support/`, `terms/`, `/backup/` with `privacy/`, `terms/`.
+- `/chordcard/` presents ChordParcel, with `privacy/` and `support/`. The stable slug matches the app's current links; the public copy is in `chordcard.json`. It states the app is in development until a separately approved public release.
 - English only for now: `/decklet/ru/` and `/decklet/de/` are still built and served, but no page links to them and there is no language switch.
 - Build: `python -I -X utf8 build.py` (standard library only) writes every page, also with `{{PLACEHOLDERS}}`, for a local look.
 - Publish: `python -I -X utf8 build.py --release`, check, commit, push `main`. `--release` fails while a `{{PLACEHOLDER}}` is left (values in `config.json`) and leaves the Decklet pages out while `operator_name` is not set.

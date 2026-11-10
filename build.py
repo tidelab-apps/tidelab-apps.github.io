@@ -210,6 +210,12 @@ class Site:
 <a class="btn" href="{APP_STORE_URL}">Get Decklet on the App Store</a>
 {decklet_links}</div>
 </article>
+<article class="card" style="margin-top:20px">
+<h3><a href="chordcard/">ChordParcel</a></h3>
+<p>Transpose your own chord sheet. Share the new copy.</p>
+<p>In development. Not yet available on the App Store.</p>
+<p class="links"><a href="chordcard/privacy/">Privacy Policy</a><a href="chordcard/support/">Support</a></p>
+</article>
 <h2 class="section">Contact</h2>
 <p>Questions, ideas or a bug to report? Write to <a href="mailto:{{{{SUPPORT_EMAIL}}}}">{{{{SUPPORT_EMAIL}}}}</a>.</p>"""
         self.shell("index.html", "en", "Tidelab: small apps, made with care", "", None, body,
@@ -358,6 +364,25 @@ the station,la gare</pre>
             self.shell(f"backup/{kind}/index.html", "en", title, '<a href="../">Backup</a>', None,
                        self.document(title, "Last updated", BACKUP_UPDATED, sections, tabs), title)
 
+    def chordcard_pages(self) -> None:
+        """ChordParcel uses the stable paths already linked by its iOS build."""
+        data = json.loads((HERE / "chordcard.json").read_text(encoding="utf-8"))
+        routes = {"product": "chordcard/", "privacy": "chordcard/privacy/", "support": "chordcard/support/"}
+        labels = {"product": "About ChordParcel", "privacy": "Privacy Policy", "support": "Support"}
+        for kind, base in routes.items():
+            page = data[kind]
+            tabs = '<nav class="tabs" aria-label="ChordParcel">' + "".join(
+                f'<span aria-current="page">{esc(label)}</span>' if key == kind
+                else f'<a href="/{routes[key]}">{esc(label)}</a>'
+                for key, label in labels.items()) + '</nav>'
+            parts = [tabs, f'<h1>{esc(page["title"])}</h1>']
+            if kind == "privacy":
+                parts.append(f'<p class="updated">Last updated: {esc(data["updated"])}</p>')
+            parts.extend(f'<p>{rich(paragraph)}</p>' for paragraph in page["paragraphs"])
+            body = '<article class="doc">' + "\n".join(parts) + '</article>'
+            self.shell(base + "index.html", "en", page["title"], '<a href="/chordcard/">ChordParcel</a>',
+                       None, body, page["description"])
+
     def not_found(self) -> None:
         body = '<section class="hero"><h1>Page not found</h1><p class="lead">This page does not exist. <a href="/">Go to the Tidelab home page</a>.</p></section>'
         self.shell("404.html", "en", "Page not found · Tidelab", "", None, body, "Page not found")
@@ -376,6 +401,7 @@ the station,la gare</pre>
             self.use_case_guides()
             self.campaign_guides()
         self.backup()
+        self.chordcard_pages()
         self.not_found()
 
 

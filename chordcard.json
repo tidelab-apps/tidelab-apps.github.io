@@ -1,0 +1,32 @@
+{
+  "updated": "10 November 2026",
+  "product": {
+    "title": "ChordParcel",
+    "description": "Transpose your own chord sheet and export a new TXT or PDF copy. In development; not yet available on the App Store.",
+    "paragraphs": [
+      "Transpose your own chord sheet. Share the new copy.",
+      "In development. Not yet available on the App Store.",
+      "Paste your own text with chords in square brackets, choose a semitone shift, and preview a new TXT or PDF copy. ChordParcel works with one sheet, without a song catalogue. Use material you own or have permission to use.",
+      "Questions: tidelab.apps@gmail.com"
+    ]
+  },
+  "privacy": {
+    "title": "Privacy — ChordParcel",
+    "description": "Privacy — ChordParcel — local data, file handling and contact.",
+    "paragraphs": [
+      "ChordParcel works with one chord sheet on your device. It stores your draft text, title, transposition offset and note-spelling preference locally. Your appearance preference is also stored on your device. It does not require an app account or upload sheet content, and has no advertising or analytics SDKs.",
+      "Import reads the file you choose. Export creates a new TXT or PDF copy. If you choose a cloud file provider or share a copy with another app or person, that provider or recipient handles it under their own terms. Your device backup settings may also affect local app data; ChordParcel does not provide its own cloud sync.",
+      "You can edit or replace the active draft. If a saved draft is damaged, the app may keep up to three local damaged copies for recovery. Temporary export copies are removed after sharing or saving finishes or is cancelled; any leftovers are cleared when the app next starts. Deleting the app removes its local data, subject to operating-system backup behaviour. Keep an exported copy of anything important.",
+      "If you email support, we receive the address and content you send and use them to answer your request. Please do not send private sheet content unless it is needed to explain your question. For questions or deletion of support correspondence, contact tidelab.apps@gmail.com."
+    ]
+  },
+  "support": {
+    "title": "ChordParcel support",
+    "description": "ChordParcel help: bracketed chords, UTF-8 import, TXT/PDF export, limits and contact.",
+    "paragraphs": [
+      "Paste text with bracketed chords such as [C]Our [Am]own words, or import your UTF-8 .txt, .cho or .crd file. Choose a semitone shift, check the preview, and export a new TXT or A4 PDF copy. Reset restores the original spelling.",
+      "Supported chord suffixes: none, m, 7, m7, maj7, dim, aug, sus2, sus4, add9. A slash bass note is supported. Chords must use A–G with an optional # or b; ♯ and ♭ are accepted. Full ChordPro directives and chords above syllables are not supported. Correct flagged input before export. Limits: 64 KB UTF-8, 200 lines, 2,000 chord tokens.",
+      "One active draft is kept. Replacing it requires confirmation; export anything you want to keep. If a cloud file provider is unavailable, try a local file. For help, email tidelab.apps@gmail.com with your app version, iOS version and steps to reproduce. Share a short original example instead of private or copyrighted material."
+    ]
+  }
+}
