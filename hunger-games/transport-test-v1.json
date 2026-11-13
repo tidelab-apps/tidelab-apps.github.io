@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": 1,
+  "publishedAt": "2026-11-12T00:00:00Z",
+  "checkedAt": "2026-11-13T06:00:00Z",
+  "locales": [
+    "en",
+    "ru"
+  ],
+  "sources": [
+    {
+      "id": "fixture-source",
+      "url": "https://www.scholastic.com/",
+      "publisher": "Fixture source label, not editorial verification",
+      "checkedAt": "2026-11-13T06:00:00Z"
+    }
+  ],
+  "works": [
+    {
+      "id": "fixture-book",
+      "medium": "book",
+      "title": {
+        "en": "Invented example book",
+        "ru": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u0430\u044f \u043a\u043d\u0438\u0433\u0430"
+      },
+      "released": true,
+      "releaseYear": 2026,
+      "releaseOrder": 1,
+      "chronologicalOrder": 1,
+      "durationMinutes": null,
+      "chapterCount": 20,
+      "edition": {
+        "id": "fixture-edition-v1",
+        "countBasis": "Invented example, numbered chapters only"
+      },
+      "countryDates": [],
+      "unknown": [],
+      "sourceIDs": [
+        "fixture-source"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "fixture-note",
+      "kind": "companion",
+      "subtype": "note",
+      "visibility": "gated",
+      "workID": "fixture-book",
+      "medium": "book",
+      "requirements": [
+        {
+          "workID": "fixture-book",
+          "medium": "book",
+          "boundary": 4
+        }
+      ],
+      "title": {
+        "en": "Invented example note",
+        "ru": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u0430\u044f \u0437\u0430\u043c\u0435\u0442\u043a\u0430"
+      },
+      "text": {
+        "en": "Example visible only after four completed chapters. Not production content.",
+        "ru": "\u041f\u0440\u0438\u043c\u0435\u0440 \u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d \u043f\u043e\u0441\u043b\u0435 \u0447\u0435\u0442\u044b\u0440\u0451\u0445 \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u043f\u0440\u043e\u0447\u0438\u0442\u0430\u043d\u043d\u044b\u0445 \u0433\u043b\u0430\u0432. \u041d\u0435 production-\u043a\u043e\u043d\u0442\u0435\u043d\u0442."
+      },
+      "sourceIDs": [
+        "fixture-source"
+      ],
+      "checkedAt": "2026-11-13T06:00:00Z"
+    }
+  ],
+  "news": [
+    {
+      "id": "fixture-news",
+      "kind": "news",
+      "visibility": "public",
+      "workID": "fixture-book",
+      "medium": "book",
+      "title": {
+        "en": "Invented non-plot update",
+        "ru": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u0430\u044f \u043d\u0435\u0441\u044e\u0436\u0435\u0442\u043d\u0430\u044f \u043d\u043e\u0432\u043e\u0441\u0442\u044c"
+      },
+      "text": {
+        "en": "Schema example only. No factual release claim.",
+        "ru": "\u0422\u043e\u043b\u044c\u043a\u043e \u043f\u0440\u0438\u043c\u0435\u0440 schema. \u041d\u0435 \u0443\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442 \u0444\u0430\u043a\u0442\u044b \u043e \u0440\u0435\u043b\u0438\u0437\u0435."
+      },
+      "sourceIDs": [
+        "fixture-source"
+      ],
+      "publishedAt": "2026-11-12T00:00:00Z",
+      "checkedAt": "2026-11-13T06:00:00Z",
+      "externalLinkWarning": true
+    }
+  ]
+}
