@@ -1,0 +1,184 @@
+{
+  "updated": "2026-11-15",
+  "name": "Complete Guide: GTA 6",
+  "slug": "gtaprogressguide",
+  "status": "Unofficial app for fans. A personal checklist and independent information guide.",
+  "disclaimer": "Unofficial fan app. Not affiliated with, endorsed or sponsored by Rockstar Games or Take-Two Interactive.",
+  "pages": {
+    "privacy": {
+      "title": "Complete Guide: GTA 6 privacy policy",
+      "description": "Privacy information about local checklists, automatic catalogue checks, Apple services and support.",
+      "sections": [
+        [
+          "Controller and provider",
+          [
+            "Aleksandr Goldybin, trading as Tidelab. Tidelab is a brand, not a separate legal entity. Address: Ieronos 1, 4043 Limassol, Cyprus. Telephone: +357 95665169. Email: appstore@goldybin.com.",
+            "The app has no app account, advertisements, analytics or tracking SDKs, AI features or model downloads. It does not request access to your location, photos or contacts. Automatic catalogue requests, Apple services, external websites and email support are separate flows described below."
+          ]
+        ],
+        [
+          "Data on your device",
+          [
+            "Your personal checklist items, completion marks, language, platform, onboarding and spoiler preferences are stored locally as versioned JSON in the app's Application Support folder. The app starts with bundled content and can use a validated locally saved active or last-good catalogue. There is no app-operated cloud synchronisation of your checklist.",
+            "Saved generations, including damaged or incomplete generations, can remain on the device to support recovery. Resetting items, marks or preferences changes the current state; it is not a secure erase of every older local generation. Restore preview files are scheduled for removal when you confirm or cancel the restore; file-removal errors or an interrupted operation may leave local files."
+          ]
+        ],
+        [
+          "Automatic catalogue checks",
+          [
+            "On launch and return to the foreground, the app automatically checks whether a catalogue update is due, at most once per six hours. It sends an HTTPS GET to https://tidelab-apps.github.io/gta6/content/v1/manifest.json. Failed checks also record a local check time. Checks are skipped during read-only recovery.",
+            "An eligible newer manifest can trigger a GET for a data package from the same GitHub Pages origin under /gta6/content/v1/packages/. The app checks its path, size, checksum and content before activation. Redirects are rejected. Unavailable or invalid updates leave bundled or last-good content in use. These are data updates, not executable code or purchase rights.",
+            "Catalogue update requests do not upload progress, personal checklist text, preferences or purchase entitlements. They add no installation identifier or personal-data request body or query. They can send a saved catalogue ETag to check for changes.",
+            "The host receives your IP address and ordinary connection/request metadata, which may include a default User-Agent and TLS information. GitHub Pages logs visitor IP addresses for security even without a GitHub login. Hosting logs are subject to the hosting provider's retention practices. GitHub privacy information: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement.",
+            "GitHub receives the connection data described above when the app checks its catalogue and when you visit this website. GitHub's published privacy statement describes processing in the United States and other countries, and reliance on Standard Contractual Clauses and the EU–U.S. Data Privacy Framework where applicable. Its “International data transfers” and “Data Privacy Framework (DPF)” sections explain those safeguards and how to obtain further information. Its “Security and Retention” section explains the criteria for its own retention. See https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement .",
+            "The last check time, outcome and accepted ETag are stored locally. The bundled catalogue contains 20 informational facts and three guides. An update may be unavailable; no update schedule is promised."
+          ]
+        ],
+        [
+          "Backup files and your choices",
+          [
+            "A JSON backup is exported only when you ask. You choose a destination or recipient through Apple's system share sheet or Files provider. The file contains checklist data and preferences, so share it only with people and services you trust. A provider you select may upload or synchronise its copy under its own terms; this is separate from the app and Tidelab does not receive that copy.",
+            "Sharing creates a temporary export file in a uniquely named folder. The app does not immediately delete this file after sharing; its cleanup timing is managed by the operating system. Copies saved or sent to other destinations remain there until you or that service remove them.",
+            "Import lets you preview a backup before confirming replacement of the current tracker data; it does not merge lists. You can cancel before replacement. Settings offers separate confirmed resets for published marks, personal items and preferences. Deleting the app may remove its local data. Device backups, exported files and provider copies must be managed separately; no complete or immediate erasure of those copies is promised. Tidelab cannot retrieve local checklist data that you have not sent to us."
+          ]
+        ],
+        [
+          "Apple purchases",
+          [
+            "Apple handles App Store transactions through StoreKit under its own privacy terms: https://www.apple.com/legal/privacy/. The app reads verified transaction and entitlement information locally to determine access. Purchase rights are not stored as a user-editable Pro flag and are not included in a checklist backup. Tidelab does not receive your payment card details from the app. Purchase-related requests to Apple are separate from checklist storage; this policy does not claim that Apple processes no data. Purchases can be initiated when the catalogue is ready and Apple makes the relevant StoreKit products available."
+          ]
+        ],
+        [
+          "External websites and this site",
+          [
+            "A source website is opened when you choose its link; automatic catalogue checks are the separate flow described above. The destination may receive technical data such as your IP address and has its own privacy policy. This Tidelab website adds no scripts, cookies, analytics or externally loaded media. GitHub Pages hosts it and logs visitors' IP addresses for security; hosting data is governed by GitHub's privacy statement: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. Tidelab does not control every log kept by external operators.",
+            "The GitHub processing locations, transfer information and retention criteria described under Automatic catalogue checks also apply to visits to this website."
+          ]
+        ],
+        [
+          "Email support and privacy requests",
+          [
+            "If you email appstore@goldybin.com, the operator receives your address, message and attachments you choose to send to handle your request. Support is assigned to Aleksandr Goldybin. The operator-only support rule prohibits submitting correspondence, attachments or identifiable support records to AI assistants for reading or drafting replies. Please avoid passwords, payment details or unnecessary full backups.",
+            "IONOS provides the support mail service; your own email provider and recipients you choose also process email. Provider security, spam filtering, logs and other processing are separate from the operator-only rule. Applicable provider terms govern those activities; this notice does not promise an absence of provider AI processing or international transfers. IONOS publishes European privacy information at https://www.ionos.de/datenschutzerklaerung/en .",
+            "The adopted support retention policy covers correspondence, attachments and any operator-controlled case metadata, privacy-request records and deletion records. It sets a maximum of 12 calendar months after the last substantive communication about the relevant case or privacy request, with earlier deletion when the records are no longer needed. An unrelated enquiry or an internal reminder does not restart that period. Only records necessary to establish, exercise or defend a specific legal claim may be kept longer, and only for as long as that claim makes retention necessary. This policy does not guarantee deletion of copies independently controlled by senders, recipients or other providers.",
+            "Operator-controlled copies and records are distinct from provider-managed technical logs, archives and backups. Deleting an operator-controlled message does not establish that a provider has completed its separate deletion or backup cycle. No provider-wide purge deadline is promised. Privacy rights continue to apply to personal data in our case and request records."
+          ]
+        ],
+        [
+          "Privacy rights and processing purposes",
+          [
+            "Contact appstore@goldybin.com to request access to your personal data, correction, erasure or restriction of processing, to object to processing based on legitimate interests, or to receive portable data where that right applies. Rights are subject to applicable legal conditions and exceptions. Proportionate information may be required to verify identity. We cannot remotely erase your local checklist or alter independent provider records.",
+            "Applicable law generally requires a response without undue delay and within one month of receipt. A necessary extension for complex or numerous requests can be up to two further months, with an explanation within the first month. You may complain to the Commissioner for Personal Data Protection in Cyprus or another competent supervisory authority, including in the EU country where you live or work. Your right to a judicial remedy is unaffected.",
+            "We process personal data necessary to provide support required by our contract with you on the basis of Article 6(1)(b) GDPR. We process privacy requests to comply with our legal obligations under Articles 12–22 GDPR, on the basis of Article 6(1)(c). For other enquiries, necessary follow-up, delivery of catalogue content and operation of this website, and establishing, exercising or defending specific legal claims, we rely on Article 6(1)(f). Our legitimate interests are answering enquiries, providing and maintaining the guide and its website, and protecting our legal rights. We use only data necessary for those purposes and must balance these interests against your rights. GitHub's separate security logging is described in its own privacy statement. Providing support information is voluntary, but without information needed to understand a request we may be unable to resolve it."
+          ]
+        ],
+        [
+          "Changes",
+          [
+            "The date above shows when this page was last updated. Material changes to data handling require updated privacy information."
+          ]
+        ]
+      ]
+    },
+    "support": {
+      "title": "Complete Guide: GTA 6 support",
+      "description": "Help for checklists, catalogue updates, backups, Apple purchase controls and contact.",
+      "sections": [
+        [
+          "Guide and catalogue",
+          [
+            "The bundled catalogue has 20 informational facts and three guides. It is not a complete walkthrough and does not supply verified gameplay, mission, collectible or cheat-code coverage, a game map or access to the game.",
+            "The app automatically checks for catalogue updates on launch or return to the foreground, at most once per six hours. An eligible same-origin package is used only after validation. A failed check or validation leaves bundled or last-good content in use and does not upload your checklist. Updates may be unavailable.",
+            "Purchases require a ready catalogue and products available from Apple through StoreKit. If the catalogue is not ready or products cannot be loaded, a new purchase may be unavailable. Check the message in the app and try again when the catalogue and Apple connection are available."
+          ]
+        ],
+        [
+          "Checklist and preferences",
+          [
+            "Create your own items and mark them complete. Your items, editorial completion marks and preferences stay on this device. Settings lets you change language, platform and spoiler preferences. Spoilers require confirmation before being enabled. There is no app account or automatic cloud sync."
+          ]
+        ],
+        [
+          "Export and restore",
+          [
+            "In Settings, use Export backup, then Share backup to choose a destination. Keep a copy somewhere you control before resetting data or deleting the app. The JSON file can contain your personal item text; avoid posting it publicly.",
+            "To restore, select a backup file and review its preview. Confirm only if you want to replace the current data, rather than merge it. Cancel to leave the current data unchanged. Spoilers are hidden after restore. A checklist backup does not restore Pro purchase rights; those are checked separately through Apple.",
+            "Reset published marks, Reset my items and Reset preferences each require confirmation and affect their named category. Earlier local generations may remain for recovery. Exported files and copies in other services are managed separately."
+          ]
+        ],
+        [
+          "If saving or importing fails",
+          [
+            "Read the displayed error and preserve your current installation and any existing backup. Do not delete the app as a troubleshooting step if you need its local data. An invalid backup is not applied. If a last-good recovery state is offered, review and confirm it before continuing; it may be older than your latest changes. Recovery is not guaranteed for every damaged file."
+          ]
+        ],
+        [
+          "Apple purchase controls",
+          [
+            "Use Restore purchases with the Apple Account used for the purchase. A checklist import is not a purchase restore. Restore or product loading may need a connection to Apple; an unavailable product does not mean a new purchase is required.",
+            "Manage subscriptions opens Apple's subscription controls. Apple explains cancellation at https://support.apple.com/118428 and refund requests at https://support.apple.com/118223. Apple decides eligibility; Tidelab does not promise a refund. Existing marks, personal items and backup are preserved when Pro ends."
+          ]
+        ],
+        [
+          "Contact",
+          [
+            "Email appstore@goldybin.com with your app version, iOS version, the error message and steps to reproduce the problem. Share a redacted screenshot if useful. Do not send passwords, payment card details or your full backup unless it is necessary and you choose to share it. No response-time guarantee is offered.",
+            "Aleksandr Goldybin, trading as Tidelab. Tidelab is a brand, not a separate legal entity. Address: Ieronos 1, 4043 Limassol, Cyprus. Telephone: +357 95665169. Email: appstore@goldybin.com."
+          ]
+        ]
+      ]
+    },
+    "terms": {
+      "title": "Complete Guide: GTA 6 terms of use",
+      "description": "Terms information for the unofficial fan guide, local checklist and conditional purchase options.",
+      "sections": [
+        [
+          "Provider and scope",
+          [
+            "Aleksandr Goldybin, trading as Tidelab. Tidelab is a brand, not a separate legal entity. Address: Ieronos 1, 4043 Limassol, Cyprus. Telephone: +357 95665169. Email: appstore@goldybin.com.",
+            "These terms describe Complete Guide: GTA 6. Any licence terms actually supplied with an App Store copy and applicable Apple terms must be considered together with this information."
+          ]
+        ],
+        [
+          "Unofficial information and your checklist",
+          [
+            "This is an independent fan guide and personal checklist, not an official game product. The fan disclaimer is not a licence to use another party's artwork, logos or media. The app does not provide access to the game.",
+            "The bundled catalogue has 20 informational facts and three guides. It does not provide verified gameplay, mission, collectible or cheat-code coverage, a game map or a complete walkthrough. Information may be incomplete or change. No future catalogue size, update schedule or game outcome is promised. Use your own judgement and linked source information."
+          ]
+        ],
+        [
+          "Catalogue updates",
+          [
+            "The app can automatically check a catalogue manifest on launch and return to the foreground, at most once per six hours. Eligible newer same-origin data packages must pass validation before use. If unavailable or invalid, bundled or last-good content remains in use. Update availability is not guaranteed. The privacy policy describes technical data received by the host. Your checklist is not a cloud-synchronised game save."
+          ]
+        ],
+        [
+          "Your local data and backups",
+          [
+            "You control the personal items you enter. Keep a backup before replacing or resetting data or deleting the app. Restore replaces data rather than merging it. Tidelab does not provide cloud sync or guarantee recovery of lost data. You choose backup recipients and file providers and are responsible for the copies you send or save. The privacy policy describes local retention and external providers."
+          ]
+        ],
+        [
+          "Purchase options only when available",
+          [
+            "Purchase options may include weekly, monthly and yearly auto-renewing subscriptions and a lifetime non-consumable unlock. Purchases require a ready catalogue and the relevant products to be available from Apple through StoreKit. The options available to you are shown in the app.",
+            "For an available purchase option, the full local price, billing period and any actual introductory offer are shown from StoreKit before confirmation. A trial is shown only when Apple supplies a qualifying offer and confirms eligibility. No price, trial or availability is promised by this page.",
+            "Subscriptions renew automatically unless cancelled through Apple. Manage or cancel in Apple's subscription settings: https://support.apple.com/118428. The lifetime option is a non-consumable purchase without a subscription renewal period; it does not promise indefinite hosting, new content or future services. Purchase rights are determined by verified Apple transactions, not by a checklist backup. Restore purchases uses Apple; a refund, if requested, is subject to Apple's decision and applicable law: https://support.apple.com/118223."
+          ]
+        ],
+        [
+          "Limits and applicable rights",
+          [
+            "No guarantee of uninterrupted operation, complete information or successful data recovery is offered. These statements do not limit any mandatory consumer rights or remedies that applicable law gives you."
+          ]
+        ],
+        [
+          "Changes and contact",
+          [
+            "The date above shows when this page was last updated. Mandatory consumer rights remain applicable. Questions and support: appstore@goldybin.com."
+          ]
+        ]
+      ]
+    }
+  }
+}

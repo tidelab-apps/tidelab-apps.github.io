@@ -448,6 +448,26 @@ the station,la gare</pre>
             self.shell(f"countsession/{kind}/index.html", "en", page["title"], "CountSession",
                        None, body, page["description"])
 
+    def gtaprogressguide_pages(self) -> None:
+        """Local review drafts; publication requires a separate authorized gate."""
+        data = json.loads((HERE / "gtaprogressguide.json").read_text(encoding="utf-8"))
+        labels = {"privacy": "Privacy Policy", "support": "Support", "terms": "Terms of Use"}
+        for kind, label in labels.items():
+            page = data["pages"][kind]
+            tabs = '<nav class="tabs" aria-label="Complete Guide: GTA 6">' + "".join(
+                f'<span aria-current="page">{esc(name)}</span>' if key == kind
+                else f'<a href="../{key}/">{esc(name)}</a>'
+                for key, name in labels.items()) + '</nav>'
+            sections = [["About this app", [data["status"], data["disclaimer"]]], *page["sections"]]
+            body = self.document(page["title"], "Last updated", data["updated"], sections, tabs)
+            path = f'{data["slug"]}/{kind}/index.html'
+            self.shell(path, "en", page["title"], data["name"], None, body, page["description"])
+            self.files[path] = self.files[path].replace(self.config["support_email"], "appstore@goldybin.com")
+            self.files[path] = self.files[path].replace('</head>', '<style>.wrap { overflow-wrap: anywhere; }</style>\n</head>')
+            canonical = f'https://tidelab-apps.github.io/{data["slug"]}/{kind}/'
+            self.files[path] = self.files[path].replace('</head>',
+                f'<link rel="canonical" href="{esc(canonical)}">\n</head>')
+
     def not_found(self) -> None:
         body = '<section class="hero"><h1>Page not found</h1><p class="lead">This page does not exist. <a href="/">Go to the Tidelab home page</a>.</p></section>'
         self.shell("404.html", "en", "Page not found · Tidelab", "", None, body, "Page not found")
@@ -470,6 +490,7 @@ the station,la gare</pre>
         self.jpegceiling_pages()
         self.srtcheck_pages()
         self.countsession_pages()
+        self.gtaprogressguide_pages()
         self.not_found()
 
 
