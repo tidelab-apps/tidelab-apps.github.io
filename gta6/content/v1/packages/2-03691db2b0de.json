@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 2,
+  "game": "gta6",
+  "version": "2026-11-16.preparation.2",
+  "release": {
+    "sequence": 2,
+    "releaseId": "prelaunch-2",
+    "publishedAt": "2026-11-16T09:20:06Z",
+    "acceptedBy": "Product Manager"
+  },
+  "records": [
+    {
+      "id": "gta6.preparation.000001",
+      "platforms": [
+        "ps5",
+        "xbox_series_x_s"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "Jason Duval",
+        "body": "Rockstar presents Jason as a former soldier working for drug runners in the Keys."
+      },
+      "ru": {
+        "title": "Jason Duval",
+        "body": "Rockstar представляет Jason как бывшего военного, работающего на наркокурьеров в Keys."
+      },
+      "spoiler": "official_story_background",
+      "primaryUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "evidenceLocator": "Jason Duval",
+      "verifiedAt": "2026-11-13T09:00:13.315765Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "no_regional_claim",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000002",
+      "platforms": [
+        "ps5",
+        "xbox_series_x_s"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "Lucia Caminos",
+        "body": "Rockstar introduces Lucia as recently released from Leonida Penitentiary."
+      },
+      "ru": {
+        "title": "Lucia Caminos",
+        "body": "Rockstar представляет Lucia как недавно вышедшую из Leonida Penitentiary."
+      },
+      "spoiler": "official_story_background",
+      "primaryUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "evidenceLocator": "Lucia Caminos",
+      "verifiedAt": "2026-11-13T09:00:13.315765Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "no_regional_claim",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000003",
+      "platforms": [
+        "ps5",
+        "xbox_series_x_s"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "Cal Hampton",
+        "body": "Cal is introduced as Jason’s friend and an associate of Brian."
+      },
+      "ru": {
+        "title": "Cal Hampton",
+        "body": "Cal представлен как друг Jason и знакомый по делам Brian."
+      },
+      "spoiler": "official_story_background",
+      "primaryUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "evidenceLocator": "Cal Hampton",
+      "verifiedAt": "2026-11-13T09:00:13.315765Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "no_regional_claim",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000004",
+      "platforms": [
+        "ps5",
+        "xbox_series_x_s"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "Boobie Ike",
+        "body": "Boobie’s businesses include property, a strip club and a recording studio."
+      },
+      "ru": {
+        "title": "Boobie Ike",
+        "body": "Среди предприятий Boobie названы недвижимость, стрип-клуб и студия звукозаписи."
+      },
+      "spoiler": "official_story_background",
+      "primaryUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "evidenceLocator": "Boobie Ike",
+      "verifiedAt": "2026-11-13T09:00:13.315765Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "no_regional_claim",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000005",
+      "platforms": [
+        "ps5",
+        "xbox_series_x_s"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "Dre'Quan Priest",
+        "body": "Dre’Quan is introduced as pursuing a career in the music business."
+      },
+      "ru": {
+        "title": "Dre'Quan Priest",
+        "body": "Dre’Quan представлен как человек, стремящийся построить карьеру в музыкальном бизнесе."
+      },
+      "spoiler": "official_story_background",
+      "primaryUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "evidenceLocator": "Dre'Quan Priest",
+      "verifiedAt": "2026-11-13T09:00:13.315765Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "no_regional_claim",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000006",
+      "platforms": [
+        "ps5",
+        "xbox_series_x_s"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "Real Dimez",
+        "body": "Rockstar identifies Real Dimez as the rap duo Bae-Luxe and Roxy."
+      },
+      "ru": {
+        "title": "Real Dimez",
+        "body": "Rockstar называет Real Dimez рэп-дуэтом Bae-Luxe и Roxy."
+      },
+      "spoiler": "official_story_background",
+      "primaryUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "evidenceLocator": "Real Dimez",
+      "verifiedAt": "2026-11-13T09:00:13.315765Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "no_regional_claim",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000007",
+      "platforms": [
+        "ps5",
+        "xbox_series_x_s"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "Raul Bautista",
+        "body": "Raul is introduced as an experienced bank robber recruiting accomplices."
+      },
+      "ru": {
+        "title": "Raul Bautista",
+        "body": "Raul представлен как опытный грабитель банков, ищущий сообщников."
+      },
+      "spoiler": "official_story_background",
+      "primaryUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "evidenceLocator": "Raul Bautista",
+      "verifiedAt": "2026-11-13T09:00:13.315765Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "no_regional_claim",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000008",
+      "platforms": [
+        "ps5",
+        "xbox_series_x_s"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "Brian Heder",
+        "body": "Brian’s introduction places his smuggling business at a boat yard in the Keys."
+      },
+      "ru": {
+        "title": "Brian Heder",
+        "body": "В представлении Brian его контрабандный бизнес связан с лодочной верфью в Keys."
+      },
+      "spoiler": "official_story_background",
+      "primaryUrl": "https://www.rockstargames.com/VI/only-in-leonida",
+      "evidenceLocator": "Brian Heder",
+      "verifiedAt": "2026-11-13T09:00:13.315765Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "no_regional_claim",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000010",
+      "platforms": [
+        "ps5"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "Single-player format",
+        "body": "PlayStation describes GTA VI as a single-player game."
+      },
+      "ru": {
+        "title": "Одиночная игра",
+        "body": "PlayStation описывает GTA VI как одиночную игру."
+      },
+      "spoiler": "none",
+      "primaryUrl": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "evidenceLocator": "Does Grand Theft Auto VI have any multiplayer modes",
+      "verifiedAt": "2026-11-13T09:00:13.961549Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "us_source_page",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000011",
+      "platforms": [
+        "ps5"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "Offline play on PS5",
+        "body": "The PS5 listing supports offline play; some features may still require internet access."
+      },
+      "ru": {
+        "title": "Игра без сети на PS5",
+        "body": "Карточка PS5 указывает поддержку игры без сети; отдельным функциям всё же может требоваться интернет."
+      },
+      "spoiler": "none",
+      "primaryUrl": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "evidenceLocator": "Product feature list / Offline play enabled",
+      "verifiedAt": "2026-11-13T09:00:13.961549Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "us_source_page",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000012",
+      "platforms": [
+        "ps5"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "Remote Play on PS5",
+        "body": "The PS5 listing supports Remote Play."
+      },
+      "ru": {
+        "title": "Remote Play на PS5",
+        "body": "Карточка PS5 указывает поддержку Remote Play."
+      },
+      "spoiler": "none",
+      "primaryUrl": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "evidenceLocator": "Product feature list / Remote Play supported",
+      "verifiedAt": "2026-11-13T09:00:13.961549Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "us_source_page",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000013",
+      "platforms": [
+        "ps5"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "PS5 Pro enhancement",
+        "body": "PlayStation marks GTA VI as PS5 Pro Enhanced."
+      },
+      "ru": {
+        "title": "Улучшения для PS5 Pro",
+        "body": "PlayStation отмечает GTA VI как PS5 Pro Enhanced."
+      },
+      "spoiler": "none",
+      "primaryUrl": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "evidenceLocator": "Product feature list / PS5 Pro Enhanced",
+      "verifiedAt": "2026-11-13T09:00:13.961549Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "us_source_page",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000014",
+      "platforms": [
+        "ps5"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "Spatial audio on PS5",
+        "body": "PlayStation lists Tempest 3D Audio for GTA VI on PS5."
+      },
+      "ru": {
+        "title": "Пространственный звук на PS5",
+        "body": "PlayStation указывает Tempest 3D Audio для GTA VI на PS5."
+      },
+      "spoiler": "none",
+      "primaryUrl": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "evidenceLocator": "How innovative features enhance / Tempest 3D audio",
+      "verifiedAt": "2026-11-13T09:00:13.961549Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "us_source_page",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000015",
+      "platforms": [
+        "ps5"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "PS5 SSD support",
+        "body": "PlayStation says GTA VI uses the PS5 SSD for loading."
+      },
+      "ru": {
+        "title": "Использование SSD на PS5",
+        "body": "PlayStation сообщает, что GTA VI использует SSD PS5 для загрузки."
+      },
+      "spoiler": "none",
+      "primaryUrl": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "evidenceLocator": "How innovative features enhance / Fast loading",
+      "verifiedAt": "2026-11-13T09:00:13.961549Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "us_source_page",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000016",
+      "platforms": [
+        "ps5"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "DualSense haptics",
+        "body": "PlayStation lists responsive DualSense haptic feedback in GTA VI."
+      },
+      "ru": {
+        "title": "Тактильная отдача DualSense",
+        "body": "PlayStation указывает реактивную тактильную отдачу DualSense в GTA VI."
+      },
+      "spoiler": "none",
+      "primaryUrl": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "evidenceLocator": "How innovative features enhance / Haptic feedback",
+      "verifiedAt": "2026-11-13T09:00:13.961549Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "us_source_page",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000017",
+      "platforms": [
+        "ps5"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "DualSense trigger resistance",
+        "body": "PlayStation lists variable DualSense trigger resistance in GTA VI."
+      },
+      "ru": {
+        "title": "Сопротивление курков DualSense",
+        "body": "PlayStation указывает изменяемое сопротивление курков DualSense в GTA VI."
+      },
+      "spoiler": "none",
+      "primaryUrl": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "evidenceLocator": "How innovative features enhance / Adaptive triggers",
+      "verifiedAt": "2026-11-13T09:00:13.961549Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "us_source_page",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000018",
+      "platforms": [
+        "ps5"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "DualSense speaker effects",
+        "body": "PlayStation says GTA VI uses the DualSense speaker for sound effects."
+      },
+      "ru": {
+        "title": "Звуковые эффекты DualSense",
+        "body": "PlayStation сообщает, что GTA VI использует динамик DualSense для звуковых эффектов."
+      },
+      "spoiler": "none",
+      "primaryUrl": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "evidenceLocator": "How innovative features enhance / Integrated speaker",
+      "verifiedAt": "2026-11-13T09:00:13.961549Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "us_source_page",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000019",
+      "platforms": [
+        "ps5"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "PS5 preload availability",
+        "body": "PlayStation lists PS5 preloading for preorders from November 10, 2026, at local midnight."
+      },
+      "ru": {
+        "title": "Доступность предзагрузки PS5",
+        "body": "PlayStation указывает начало предзагрузки PS5 для предзаказов 10 ноября 2026 года в полночь по местному времени."
+      },
+      "spoiler": "none",
+      "primaryUrl": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "evidenceLocator": "Pre-load / Step 3",
+      "verifiedAt": "2026-11-13T09:00:13.961549Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "us_source_page",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000020",
+      "platforms": [
+        "ps5"
+      ],
+      "editionScope": "standard_and_ultimate_listings",
+      "en": {
+        "title": "PS5 edition choice",
+        "body": "PlayStation lists Standard and Ultimate editions; Ultimate includes an additional edition upgrade."
+      },
+      "ru": {
+        "title": "Выбор издания на PS5",
+        "body": "PlayStation перечисляет Standard и Ultimate; в Ultimate входит дополнительное улучшение издания."
+      },
+      "spoiler": "none",
+      "primaryUrl": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "evidenceLocator": "Buy / Editions / Standard Edition and Ultimate Edition",
+      "verifiedAt": "2026-11-13T09:00:13.961549Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "us_source_page",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.preparation.000021",
+      "platforms": [
+        "ps5",
+        "xbox_series_x_s"
+      ],
+      "editionScope": "not_stated_by_source",
+      "en": {
+        "title": "Setting of the announced story",
+        "body": "Rockstar places the story’s criminal conspiracy across Leonida, including Vice City."
+      },
+      "ru": {
+        "title": "Место действия анонсированного сюжета",
+        "body": "Rockstar описывает преступный заговор в Leonida, включая Vice City."
+      },
+      "spoiler": "official_story_background",
+      "primaryUrl": "https://www.rockstargames.com/VI",
+      "evidenceLocator": "Vice City, USA. / synopsis",
+      "verifiedAt": "2026-11-13T09:00:08.928741Z",
+      "verificationMethod": "Official public page text read; individual claim comparison; original EN paraphrase and RU translation; announced information, no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose. Source remains property of its rights holder; no trademark clearance asserted.",
+      "type": "preparation",
+      "regionScope": "no_regional_claim",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.guide.000001",
+      "platforms": [
+        "ps5",
+        "xbox_series_x_s"
+      ],
+      "editionScope": "all_announced",
+      "en": {
+        "title": "Check your platform and release date",
+        "body": "Rockstar lists GTA VI for PlayStation 5 and Xbox Series X|S, with release scheduled for November 19, 2026. Confirm your console against this list before preparing to play."
+      },
+      "ru": {
+        "title": "Проверьте платформу и дату выхода",
+        "body": "Rockstar указывает PlayStation 5 и Xbox Series X|S и планирует выпуск GTA VI на 19 ноября 2026 года. Перед подготовкой к игре проверьте, что ваша консоль входит в этот список."
+      },
+      "spoiler": "none",
+      "primaryUrl": "https://www.rockstargames.com/VI",
+      "evidenceLocator": "Coming / platform labels",
+      "verifiedAt": "2026-11-13T00:44:27Z",
+      "verificationMethod": "Public web text read; claim-level comparison; original EN paraphrase and RU translation; no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose; no trademark clearance asserted.",
+      "type": "guide",
+      "licence": "Original editorial text; no third-party content licence asserted.",
+      "regionScope": "no_regional_claim",
+      "access": "free"
+    },
+    {
+      "id": "gta6.guide.000002",
+      "platforms": [
+        "ps5"
+      ],
+      "editionScope": "all_announced",
+      "en": {
+        "title": "Prepare storage on PS5",
+        "body": "For PS5 preloading, PlayStation asks players to clear at least 212 GB. Check free space before downloading. This preparation figure does not establish the final installed size or an Xbox storage requirement."
+      },
+      "ru": {
+        "title": "Подготовьте место на PS5",
+        "body": "Для предзагрузки на PS5 PlayStation просит освободить не менее 212 GB. Проверьте свободное место перед загрузкой. Это требование для подготовки, а не подтверждение окончательного размера установки или требования для Xbox."
+      },
+      "spoiler": "none",
+      "primaryUrl": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "evidenceLocator": "Grand Theft Auto VI pre-load begins November 10 / Step 3",
+      "verifiedAt": "2026-11-13T00:44:27Z",
+      "verificationMethod": "Public web text read; claim-level comparison; original EN paraphrase and RU translation; no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose; no trademark clearance asserted.",
+      "type": "guide",
+      "licence": "Original editorial text; no third-party content licence asserted.",
+      "regionScope": "us_source_page",
+      "access": "pro"
+    },
+    {
+      "id": "gta6.guide.000003",
+      "platforms": [
+        "ps5"
+      ],
+      "editionScope": "ultimate_only",
+      "en": {
+        "title": "Check the edition before planning Wyman’s collection",
+        "body": "PlayStation describes a Wyman commission involving abandoned classic and project cars under Ultimate Edition. Individual cars, locations and completion requirements remain unverified here. This announcement is not an item checklist."
+      },
+      "ru": {
+        "title": "Проверьте издание перед коллекцией Wyman",
+        "body": "В описании Ultimate Edition PlayStation анонсирует поручение Wyman со старыми заброшенными автомобилями и машинами под восстановление. Отдельные автомобили, места и условия завершения здесь не проверены. Этот анонс не является списком предметов."
+      },
+      "spoiler": "none",
+      "primaryUrl": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/",
+      "evidenceLocator": "Ultimate Edition / Special commission and customs / Classic car collection",
+      "verifiedAt": "2026-11-13T00:44:27Z",
+      "verificationMethod": "Public web text read; claim-level comparison; original EN paraphrase and RU translation; no gameplay test.",
+      "status": "verified",
+      "gameBuild": null,
+      "progressEligible": false,
+      "rightsNotes": "Original EN paraphrase and RU translation. No copied media, logos, maps or source prose; no trademark clearance asserted.",
+      "type": "guide",
+      "licence": "Original editorial text; no third-party content licence asserted.",
+      "regionScope": "us_source_page",
+      "access": "pro"
+    }
+  ]
+}
