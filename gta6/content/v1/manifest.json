@@ -1,0 +1,13 @@
+{
+  "format": "tidelab-gta6-content-manifest",
+  "formatVersion": 1,
+  "sequence": 2,
+  "packages": [
+    {
+      "schemaVersion": 2,
+      "path": "/gta6/content/v1/packages/2-03691db2b0de.json",
+      "bytes": 30917,
+      "sha256": "03691db2b0def7302b1ab32623685a9c7c815d35f20d9f9901716c50f4ac84c9"
+    }
+  ]
+}
