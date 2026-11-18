@@ -1,0 +1,11 @@
+{
+  "id": "/pecha-path/",
+  "name": "Pecha Path",
+  "short_name": "Pecha Path",
+  "lang": "ru",
+  "start_url": "/pecha-path/",
+  "scope": "/pecha-path/",
+  "display": "standalone",
+  "background_color": "#fbfaf6",
+  "theme_color": "#2e6254"
+}
