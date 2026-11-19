@@ -454,7 +454,7 @@ the station,la gare</pre>
         labels = {"privacy": "Privacy Policy", "support": "Support", "terms": "Terms of Use"}
         for kind, label in labels.items():
             page = data["pages"][kind]
-            tabs = '<nav class="tabs" aria-label="Complete Guide: GTA 6">' + "".join(
+            tabs = f'<nav class="tabs" aria-label="{esc(data["name"])}">' + "".join(
                 f'<span aria-current="page">{esc(name)}</span>' if key == kind
                 else f'<a href="../{key}/">{esc(name)}</a>'
                 for key, name in labels.items()) + '</nav>'

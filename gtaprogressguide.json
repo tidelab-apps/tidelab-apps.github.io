@@ -1,12 +1,12 @@
 {
   "updated": "2026-11-15",
-  "name": "Complete Guide: GTA 6",
+  "name": "Fan Guide for GTA 6",
   "slug": "gtaprogressguide",
   "status": "Unofficial app for fans. A personal checklist and independent information guide.",
   "disclaimer": "Unofficial fan app. Not affiliated with, endorsed or sponsored by Rockstar Games or Take-Two Interactive.",
   "pages": {
     "privacy": {
-      "title": "Complete Guide: GTA 6 privacy policy",
+      "title": "Fan Guide for GTA 6 privacy policy",
       "description": "Privacy information about local checklists, automatic catalogue checks, Apple services and support.",
       "sections": [
         [
@@ -81,7 +81,7 @@
       ]
     },
     "support": {
-      "title": "Complete Guide: GTA 6 support",
+      "title": "Fan Guide for GTA 6 support",
       "description": "Help for checklists, catalogue updates, backups, Apple purchase controls and contact.",
       "sections": [
         [
@@ -129,14 +129,14 @@
       ]
     },
     "terms": {
-      "title": "Complete Guide: GTA 6 terms of use",
+      "title": "Fan Guide for GTA 6 terms of use",
       "description": "Terms information for the unofficial fan guide, local checklist and conditional purchase options.",
       "sections": [
         [
           "Provider and scope",
           [
             "Aleksandr Goldybin, trading as Tidelab. Tidelab is a brand, not a separate legal entity. Address: Ieronos 1, 4043 Limassol, Cyprus. Telephone: +357 95665169. Email: appstore@goldybin.com.",
-            "These terms describe Complete Guide: GTA 6. Any licence terms actually supplied with an App Store copy and applicable Apple terms must be considered together with this information."
+            "These terms describe Fan Guide for GTA 6. Any licence terms actually supplied with an App Store copy and applicable Apple terms must be considered together with this information."
           ]
         ],
         [
