@@ -1,0 +1,5998 @@
+{
+  "courseVersion": "pp-content-v1-0.3.1-research.2",
+  "assessmentSchemaVersion": "pp-assessment-payload-v1",
+  "scoringVersion": "pp-visual-exact-json-v1",
+  "languageAcceptance": "source-verified",
+  "internalFixture": false,
+  "publicReady": true,
+  "audioAccepted": true,
+  "assessmentHash": "c115a0f99dcdb69ac6f3dcdb70cd63b4d3f04e46aba4f7ce1508c32234e83c74",
+  "about": {
+    "disclaimer": {
+      "ru": "Содержание сверено по словарям и учебникам, носителем языка не проверено. Нашли ошибку — напишите",
+      "en": "The content has been checked against dictionaries and textbooks, but has not been reviewed by a native speaker. Found an error? Let us know."
+    },
+    "contact": "tidelab.apps@gmail.com",
+    "contactURL": "mailto:tidelab.apps@gmail.com"
+  },
+  "credits": [
+    {
+      "license": "CC BY-NC 4.0",
+      "institution": "MSU Libraries Open Textbooks; Basic Tibetan (MSU / University of Wisconsin / Columbia University collaboration)",
+      "credit": "Basic Tibetan. Copyright © 2026 Jampa Khedup and Sonam Tsering. Textbook authors: Jampa Khedup, Sonam Tsering, Rajiv Ranjan, Erlin Barnard.",
+      "sourceURL": "https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/02/The-Thirty-consonants.m4a",
+      "licenseURL": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "changes": "Excerpt of ordered alphabet recording, AAC decoded to PCM16 WAV; no gain, speed, denoising or synthetic audio",
+      "chapterURL": "https://openbooks.lib.msu.edu/basictibetan/chapter/1-1/"
+    },
+    {
+      "license": "CC BY-NC 4.0",
+      "institution": "MSU Libraries Open Textbooks; Basic Tibetan (MSU / University of Wisconsin / Columbia University collaboration)",
+      "credit": "Basic Tibetan. Copyright © 2026 Jampa Khedup and Sonam Tsering. Textbook authors: Jampa Khedup, Sonam Tsering, Rajiv Ranjan, Erlin Barnard.",
+      "sourceURL": "https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/04/The-Four-Vowels-with-Letter-%E0%BD%80-%E0%BD%98%E0%BC%8D.m4a",
+      "licenseURL": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "changes": "Excerpts of the four vowel formulas on ཀ (ཀི, ཀུ, ཀེ, ཀོ) from the ordered recording, AAC decoded to PCM16 WAV at 24 kHz; no gain, speed, denoising or synthetic audio",
+      "chapterURL": "https://openbooks.lib.msu.edu/basictibetan/chapter/1-3/"
+    },
+    {
+      "license": "CC BY 4.0 (article and accompanying supplementary material; publisher says supplementary inherits article metadata)",
+      "institution": "Yubin Zhang, Department of Linguistics, University of Southern California; Cambridge University Press / International Phonetic Association",
+      "credit": "Yubin Zhang (2024), Central Tibetan (Lhasa), Journal of the International Phonetic Association 54(2), 788–810, doi:10.1017/S0025100324000033",
+      "sourceURL": "https://static.cambridge.org/content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0025100324000033/resource/name/S0025100324000033sup001.zip",
+      "licenseURL": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Original WAV copied byte-for-byte, including repeated tokens"
+    }
+  ],
+  "provenanceIndex": {
+    "pp-letter-001": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-002": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-003": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-004": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-005": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-006": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-007": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-008": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-009": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-010": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-011": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-012": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-013": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-014": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-015": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-016": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-017": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-018": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-019": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-020": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-021": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-022": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-023": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-024": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-025": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-026": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-027": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-028": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-029": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-letter-030": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-vowel-02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-vowel-03": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-vowel-04": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-vowel-05": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-syl-76d9fb2f6d49d08b": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-syl-0320d185a1315c0a": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-syl-612764833c1c4231": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-syl-3b703e11845bd01e": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-syl-5840bef6d52dc0fe": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-syl-27cc11d3df8c9a6d": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-syl-1534d8691a23c33b": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-syl-e8ca548b0047a932": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-syl-cea04586375174ef": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-syl-28c42f006c7f3cc6": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l01-e01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l01-e02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l01-visual07": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l01-e05": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l02-e01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l02-e02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l02-e03": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l02-e04": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l03-e01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l03-e02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l03-e03": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l03-e04": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v04-e01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v04-e02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v04-e03": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v04-visual07": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v05-e01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v05-e02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v05-e03": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v05-e04": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v06-e01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v06-e02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v06-e03": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v06-e04": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v07-e01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v07-e02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v07-e03": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v07-e04": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v08-e01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v08-e02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v08-e03": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v08-visual07": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l01-visual06": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l02-visual06": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l03-visual06": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v04-visual06": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v05-visual06": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v06-visual06": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v07-visual06": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v08-visual06": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l01-example01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l01-example02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l02-example01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l02-example02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l03": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l03-example01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l03-example02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v04": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v04-example01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v04-example02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v05": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v05-example01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v05-example02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v06": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v06-example01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v06-example02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v07": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v07-example01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v07-example02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v08": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v08-example01": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v08-example02": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l01-e04": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l02-e05": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l03-e05": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v04-e05": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v05-e05": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v06-e05": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v07-e05": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-v1-v08-e05": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l03-example03": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l03-example04": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    }
+  },
+  "lessons": [
+    {
+      "id": "pp-l01",
+      "sequence": 1,
+      "title": {
+        "ru": "Первые 15 букв",
+        "en": "The first 15 letters"
+      },
+      "goal": {
+        "ru": "Узнавать первые 15 форм и записывать Wylie.",
+        "en": "Recognise the first 15 shapes and write their Wylie labels."
+      },
+      "explanation": {
+        "ru": "Сопоставляй целую букву с подписью Wylie. Первые 15 букв: ka kha ga nga ca cha ja nya ta tha da na pa pha ba. В одиночной согласной без добавленного знака записывается a. Wylie передаёт написание; по этой подписи нельзя проверять произношение.",
+        "en": "Match each complete letter to its Wylie label. The first 15 letters are ka kha ga nga ca cha ja nya ta tha da na pa pha ba. An independent consonant without an added vowel sign is written with a. Wylie records spelling; this label cannot assess pronunciation."
+      },
+      "unitIds": [
+        "pp-letter-001",
+        "pp-letter-002",
+        "pp-letter-003",
+        "pp-letter-004",
+        "pp-letter-005",
+        "pp-letter-006",
+        "pp-letter-007",
+        "pp-letter-008",
+        "pp-letter-009",
+        "pp-letter-010",
+        "pp-letter-011",
+        "pp-letter-012",
+        "pp-letter-013",
+        "pp-letter-014",
+        "pp-letter-015"
+      ],
+      "exerciseIds": [
+        "pp-l01-e01",
+        "pp-l01-e02",
+        "pp-l01-visual07",
+        "pp-l01-e05",
+        "pp-l01-visual06"
+      ],
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      },
+      "completionThreshold": {
+        "correct": 4,
+        "total": 5,
+        "audioAffectsCompletion": false
+      },
+      "durationNote": {
+        "ru": "Продолжительность не измерена.",
+        "en": "Duration has not been measured."
+      },
+      "examples": [
+        {
+          "id": "pp-l01-example01",
+          "unitId": "pp-letter-001",
+          "tibetan": "ཀ",
+          "wylie": "ka",
+          "analysis": {
+            "ru": "ཀ — одна буква; Wylie ka сохраняет её написание.",
+            "en": "ཀ is one letter; Wylie ka records its spelling."
+          },
+          "components": {
+            "root": "ka",
+            "vowel": "a"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        },
+        {
+          "id": "pp-l01-example02",
+          "unitId": "pp-letter-002",
+          "tibetan": "ཁ",
+          "wylie": "kha",
+          "analysis": {
+            "ru": "ཁ отличается от ཀ; h входит в Wylie kha.",
+            "en": "ཁ differs from ཀ; h is part of Wylie kha."
+          },
+          "components": {
+            "root": "kha",
+            "vowel": "a"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "pp-l02",
+      "sequence": 2,
+      "title": {
+        "ru": "Остальные 15 букв",
+        "en": "The remaining 15 letters"
+      },
+      "goal": {
+        "ru": "Различать похожие формы второй половины алфавита.",
+        "en": "Distinguish similar shapes in the second half of the alphabet."
+      },
+      "explanation": {
+        "ru": "Продолжи ряд: ma tsa tsha dza wa zha za 'a ya ra la sha sa ha a. Буквы འ и ཨ различны: их Wylie — 'a и a. В наших полях используется прямой апостроф '. Подписи Wylie не являются фонетической инструкцией.",
+        "en": "Continue with ma tsa tsha dza wa zha za 'a ya ra la sha sa ha a. འ and ཨ are different letters: their Wylie labels are 'a and a. Our fields use the straight apostrophe '. Wylie labels are not pronunciation instructions."
+      },
+      "unitIds": [
+        "pp-letter-016",
+        "pp-letter-017",
+        "pp-letter-018",
+        "pp-letter-019",
+        "pp-letter-020",
+        "pp-letter-021",
+        "pp-letter-022",
+        "pp-letter-023",
+        "pp-letter-024",
+        "pp-letter-025",
+        "pp-letter-026",
+        "pp-letter-027",
+        "pp-letter-028",
+        "pp-letter-029",
+        "pp-letter-030"
+      ],
+      "exerciseIds": [
+        "pp-l02-e01",
+        "pp-l02-e02",
+        "pp-l02-e03",
+        "pp-l02-e04",
+        "pp-l02-visual06"
+      ],
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      },
+      "completionThreshold": {
+        "correct": 4,
+        "total": 5,
+        "audioAffectsCompletion": false
+      },
+      "durationNote": {
+        "ru": "Продолжительность не измерена.",
+        "en": "Duration has not been measured."
+      },
+      "examples": [
+        {
+          "id": "pp-l02-example01",
+          "unitId": "pp-letter-023",
+          "tibetan": "འ",
+          "wylie": "'a",
+          "analysis": {
+            "ru": "འ записывается как 'a; апостроф обозначает букву.",
+            "en": "འ is written as 'a; the apostrophe identifies the letter."
+          },
+          "components": {
+            "root": "'a",
+            "vowel": "a"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        },
+        {
+          "id": "pp-l02-example02",
+          "unitId": "pp-letter-030",
+          "tibetan": "ཨ",
+          "wylie": "a",
+          "analysis": {
+            "ru": "ཨ записывается a; это другая буква, чем འ.",
+            "en": "ཨ is written as a; it is a different letter from འ."
+          },
+          "components": {
+            "root": "a",
+            "vowel": "a"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "pp-l03",
+      "sequence": 3,
+      "title": {
+        "ru": "Присущая a и четыре знака",
+        "en": "Inherent a and four vowel signs"
+      },
+      "goal": {
+        "ru": "Находить четыре гласных знака.",
+        "en": "Identify the four vowel signs."
+      },
+      "explanation": {
+        "ru": "Сравни целые формы ཀ ཀི ཀུ ཀེ ཀོ: ka ki ku ke ko. Знаки i, e, o расположены сверху, u — снизу. Для a в простой форме ka дополнительный знак не нужен. Четыре отдельные знака в каталоге показаны с носителем ka; знак и целый слог имеют разные поля.",
+        "en": "Compare the complete forms ཀ ཀི ཀུ ཀེ ཀོ: ka ki ku ke ko. The signs i, e and o are above; u is below. Simple ka needs no added sign for a. The four individual marks in the catalogue are shown on the carrier ka; a mark and a complete syllable have separate fields."
+      },
+      "unitIds": [
+        "pp-letter-001",
+        "pp-vowel-02",
+        "pp-vowel-03",
+        "pp-vowel-04",
+        "pp-vowel-05"
+      ],
+      "exerciseIds": [
+        "pp-l03-e01",
+        "pp-l03-e02",
+        "pp-l03-e03",
+        "pp-l03-e04",
+        "pp-l03-visual06"
+      ],
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      },
+      "completionThreshold": {
+        "correct": 4,
+        "total": 5,
+        "audioAffectsCompletion": false
+      },
+      "durationNote": {
+        "ru": "Продолжительность не измерена.",
+        "en": "Duration has not been measured."
+      },
+      "examples": [
+        {
+          "id": "pp-l03-example01",
+          "unitId": "pp-vowel-02",
+          "tibetan": "ཀི",
+          "wylie": "ki",
+          "analysis": {
+            "ru": "ཀི: коренная ka и знак i над ней.",
+            "en": "ཀི: root ka with sign i above it."
+          },
+          "components": {
+            "root": "ka",
+            "vowel": "i"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        },
+        {
+          "id": "pp-l03-example02",
+          "unitId": "pp-vowel-03",
+          "tibetan": "ཀུ",
+          "wylie": "ku",
+          "analysis": {
+            "ru": "ཀུ: коренная ka и знак u под ней.",
+            "en": "ཀུ: root ka with sign u below it."
+          },
+          "components": {
+            "root": "ka",
+            "vowel": "u"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        },
+        {
+          "id": "pp-l03-example03",
+          "unitId": "pp-vowel-04",
+          "tibetan": "ཀེ",
+          "wylie": "ke",
+          "analysis": {
+            "ru": "ཀེ: коренная ka и знак e над ней.",
+            "en": "ཀེ: root ka with sign e above it."
+          },
+          "components": {
+            "root": "ka",
+            "vowel": "e"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        },
+        {
+          "id": "pp-l03-example04",
+          "unitId": "pp-vowel-05",
+          "tibetan": "ཀོ",
+          "wylie": "ko",
+          "analysis": {
+            "ru": "ཀོ: коренная ka и знак o над ней.",
+            "en": "ཀོ: root ka with sign o above it."
+          },
+          "components": {
+            "root": "ka",
+            "vowel": "o"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "pp-v1-v04",
+      "sequence": 4,
+      "title": {
+        "ru": "Коренная буква и целый слог",
+        "en": "Root letter and complete syllable"
+      },
+      "goal": {
+        "ru": "Находить коренную в простом слоге.",
+        "en": "Find the root in a simple syllable."
+      },
+      "explanation": {
+        "ru": "В ཆོས (chos) коренная буква — cha, знак гласной — o, суффикс — sa. В རིག (rig) коренная — ra, гласная — i, суффикс — ga. В རིག་པ་ точка tsheg отделяет rig от pa: здесь два слога. Этот разбор описывает письмо; он не требует записи звука.",
+        "en": "In ཆོས (chos), cha is the root, o the vowel sign and sa the suffix. In རིག (rig), ra is the root, i the vowel and ga the suffix. In རིག་པ་ a tsheg separates rig from pa: there are two syllables here. This analysis describes spelling and needs no audio recording."
+      },
+      "unitIds": [
+        "pp-syl-76d9fb2f6d49d08b",
+        "pp-syl-0320d185a1315c0a",
+        "pp-letter-013"
+      ],
+      "exerciseIds": [
+        "pp-v1-v04-e01",
+        "pp-v1-v04-e02",
+        "pp-v1-v04-e03",
+        "pp-v1-v04-visual07",
+        "pp-v1-v04-visual06"
+      ],
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      },
+      "completionThreshold": {
+        "correct": 4,
+        "total": 5,
+        "audioAffectsCompletion": false
+      },
+      "durationNote": {
+        "ru": "Продолжительность не измерена.",
+        "en": "Duration has not been measured."
+      },
+      "examples": [
+        {
+          "id": "pp-v1-v04-example01",
+          "unitId": "pp-syl-76d9fb2f6d49d08b",
+          "tibetan": "ཆོས",
+          "wylie": "chos",
+          "analysis": {
+            "ru": "ཆོས: коренная cha (ཆ), знак o, суффикс sa. Это один слог.",
+            "en": "ཆོས: root cha (ཆ), sign o and suffix sa. This is one syllable."
+          },
+          "components": {
+            "root": "cha",
+            "vowel": "o",
+            "suffix": "sa"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        },
+        {
+          "id": "pp-v1-v04-example02",
+          "unitId": "pp-syl-0320d185a1315c0a",
+          "tibetan": "རིག",
+          "wylie": "rig",
+          "analysis": {
+            "ru": "རིག: коренная ra, знак i, суффикс ga. Точка ་ после слога отмечает границу.",
+            "en": "རིག: root ra, sign i and suffix ga. A following tsheg ་ marks a syllable boundary."
+          },
+          "components": {
+            "root": "ra",
+            "vowel": "i",
+            "suffix": "ga"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "pp-v1-v05",
+      "sequence": 5,
+      "title": {
+        "ru": "Приставки",
+        "en": "Prefixes"
+      },
+      "goal": {
+        "ru": "Различать приставку и коренную в заданных слогах.",
+        "en": "Distinguish prefix and root in the selected syllables."
+      },
+      "explanation": {
+        "ru": "В བཀའ (bka') ba стоит перед коренной ka; конечная буква — 'a. Не убирай конечную འ: བཀ и བཀའ — разные написания. В གནས (gnas) ga — приставка, na — коренная, sa — суффикс. Роль буквы определяется в конкретном слоге; первая буква не всегда приставка.",
+        "en": "In བཀའ (bka'), ba precedes root ka; the final letter is 'a. Keep final འ: བཀ and བཀའ are different spellings. In གནས (gnas), ga is the prefix, na the root and sa the suffix. A letter's role belongs to the particular syllable; the first letter is not always a prefix."
+      },
+      "unitIds": [
+        "pp-syl-612764833c1c4231",
+        "pp-syl-3b703e11845bd01e",
+        "pp-letter-001"
+      ],
+      "exerciseIds": [
+        "pp-v1-v05-e01",
+        "pp-v1-v05-e02",
+        "pp-v1-v05-e03",
+        "pp-v1-v05-e04",
+        "pp-v1-v05-visual06"
+      ],
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      },
+      "completionThreshold": {
+        "correct": 4,
+        "total": 5,
+        "audioAffectsCompletion": false
+      },
+      "durationNote": {
+        "ru": "Продолжительность не измерена.",
+        "en": "Duration has not been measured."
+      },
+      "examples": [
+        {
+          "id": "pp-v1-v05-example01",
+          "unitId": "pp-syl-612764833c1c4231",
+          "tibetan": "བཀའ",
+          "wylie": "bka'",
+          "analysis": {
+            "ru": "བཀའ: приставка ba, коренная ka, конечная 'a; отдельного знака гласной нет.",
+            "en": "བཀའ: prefix ba, root ka and final 'a; there is no added vowel sign."
+          },
+          "components": {
+            "prefix": "ba",
+            "root": "ka",
+            "vowel": "a",
+            "suffix": "'a"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        },
+        {
+          "id": "pp-v1-v05-example02",
+          "unitId": "pp-syl-3b703e11845bd01e",
+          "tibetan": "གནས",
+          "wylie": "gnas",
+          "analysis": {
+            "ru": "གནས: ga — приставка, na — коренная, sa — суффикс.",
+            "en": "གནས: ga is the prefix, na the root and sa the suffix."
+          },
+          "components": {
+            "prefix": "ga",
+            "root": "na",
+            "vowel": "a",
+            "suffix": "sa"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "pp-v1-v06",
+      "sequence": 6,
+      "title": {
+        "ru": "Надписная буква",
+        "en": "The superscribed letter"
+      },
+      "goal": {
+        "ru": "Найти надписную и коренную в двух выбранных стеках.",
+        "en": "Identify the superscript and root in two selected stacks."
+      },
+      "explanation": {
+        "ru": "В སྐུ (sku) sa — надписная буква, ka — коренная, u — гласный знак. В རྒྱལ (rgyal) ra — надписная, ga — коренная, ya — подписная, la — суффикс. Сравни положение букв внутри целого стека; не дели стек на отдельные учебные ответы.",
+        "en": "In སྐུ (sku), sa is superscribed, ka the root and u the vowel sign. In རྒྱལ (rgyal), ra is superscribed, ga the root, ya subjoined and la the suffix. Compare positions within the complete stack; keep the stack intact in an answer."
+      },
+      "unitIds": [
+        "pp-syl-5840bef6d52dc0fe",
+        "pp-syl-27cc11d3df8c9a6d"
+      ],
+      "exerciseIds": [
+        "pp-v1-v06-e01",
+        "pp-v1-v06-e02",
+        "pp-v1-v06-e03",
+        "pp-v1-v06-e04",
+        "pp-v1-v06-visual06"
+      ],
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      },
+      "completionThreshold": {
+        "correct": 4,
+        "total": 5,
+        "audioAffectsCompletion": false
+      },
+      "durationNote": {
+        "ru": "Продолжительность не измерена.",
+        "en": "Duration has not been measured."
+      },
+      "examples": [
+        {
+          "id": "pp-v1-v06-example01",
+          "unitId": "pp-syl-5840bef6d52dc0fe",
+          "tibetan": "སྐུ",
+          "wylie": "sku",
+          "analysis": {
+            "ru": "སྐུ: sa надписана над коренной ka; u — знак гласной.",
+            "en": "སྐུ: sa is superscribed above root ka; u is the vowel sign."
+          },
+          "components": {
+            "superscript": "sa",
+            "root": "ka",
+            "vowel": "u"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        },
+        {
+          "id": "pp-v1-v06-example02",
+          "unitId": "pp-syl-27cc11d3df8c9a6d",
+          "tibetan": "རྒྱལ",
+          "wylie": "rgyal",
+          "analysis": {
+            "ru": "རྒྱལ: ra надписана, ga коренная, ya подписана, la суффикс.",
+            "en": "རྒྱལ: ra is superscribed, ga is the root, ya is subjoined and la is the suffix."
+          },
+          "components": {
+            "superscript": "ra",
+            "root": "ga",
+            "subscript": "ya",
+            "vowel": "a",
+            "suffix": "la"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "pp-v1-v07",
+      "sequence": 7,
+      "title": {
+        "ru": "Подписная буква",
+        "en": "The subjoined letter"
+      },
+      "goal": {
+        "ru": "Узнать подписную ya в выбранных стеках.",
+        "en": "Recognise subjoined ya in the selected stacks."
+      },
+      "explanation": {
+        "ru": "В ཀྱ (kya) коренная ka, а ya записана под ней в форме ྱ. В བྱ (bya) коренная ba с той же подписной ya. В རྒྱལ подписная ya находится под ga, а над ga стоит ra. Wylie сохраняет это написание, а не даёт фонетический разбор.",
+        "en": "In ཀྱ (kya), ka is the root and ya is written below it as ྱ. In བྱ (bya), root ba has the same subjoined ya. In རྒྱལ, ya is below ga and ra is above ga. Wylie preserves this spelling; it does not provide a phonetic analysis."
+      },
+      "unitIds": [
+        "pp-syl-1534d8691a23c33b",
+        "pp-syl-e8ca548b0047a932",
+        "pp-syl-27cc11d3df8c9a6d"
+      ],
+      "exerciseIds": [
+        "pp-v1-v07-e01",
+        "pp-v1-v07-e02",
+        "pp-v1-v07-e03",
+        "pp-v1-v07-e04",
+        "pp-v1-v07-visual06"
+      ],
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      },
+      "completionThreshold": {
+        "correct": 4,
+        "total": 5,
+        "audioAffectsCompletion": false
+      },
+      "durationNote": {
+        "ru": "Продолжительность не измерена.",
+        "en": "Duration has not been measured."
+      },
+      "examples": [
+        {
+          "id": "pp-v1-v07-example01",
+          "unitId": "pp-syl-1534d8691a23c33b",
+          "tibetan": "ཀྱ",
+          "wylie": "kya",
+          "analysis": {
+            "ru": "ཀྱ: ka — коренная, ya записана под ней особой формой ྱ.",
+            "en": "ཀྱ: ka is the root; ya appears below it in its subjoined form ྱ."
+          },
+          "components": {
+            "root": "ka",
+            "subscript": "ya",
+            "vowel": "a"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        },
+        {
+          "id": "pp-v1-v07-example02",
+          "unitId": "pp-syl-e8ca548b0047a932",
+          "tibetan": "བྱ",
+          "wylie": "bya",
+          "analysis": {
+            "ru": "བྱ: ba — коренная, ya — подписная. Стек остаётся целым.",
+            "en": "བྱ: ba is the root and ya is subjoined. Keep the stack intact."
+          },
+          "components": {
+            "root": "ba",
+            "subscript": "ya",
+            "vowel": "a"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "pp-v1-v08",
+      "sequence": 8,
+      "title": {
+        "ru": "Суффиксы и итог письма",
+        "en": "Suffixes and a spelling review"
+      },
+      "goal": {
+        "ru": "Опознавать суффиксы и сохранять полное написание.",
+        "en": "Identify suffixes and preserve complete spelling."
+      },
+      "explanation": {
+        "ru": "В སེམས (sems) коренная sa, знак e, затем суффикс ma и вторичный суффикс sa. Две sa занимают разные роли. В བོན (bon) коренная ba, знак o и суффикс na. В каждом из этих написаний один слог; число написанных букв не равно числу слогов.",
+        "en": "In སེམས (sems), sa is the root, e the vowel sign, followed by suffix ma and secondary suffix sa. The two sa letters have different roles. In བོན (bon), ba is the root, o the vowel and na the suffix. Each spelling is one syllable; the number of written letters is not the number of syllables."
+      },
+      "unitIds": [
+        "pp-syl-cea04586375174ef",
+        "pp-syl-28c42f006c7f3cc6",
+        "pp-syl-0320d185a1315c0a"
+      ],
+      "exerciseIds": [
+        "pp-v1-v08-e01",
+        "pp-v1-v08-e02",
+        "pp-v1-v08-e03",
+        "pp-v1-v08-visual07",
+        "pp-v1-v08-visual06"
+      ],
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      },
+      "completionThreshold": {
+        "correct": 4,
+        "total": 5,
+        "audioAffectsCompletion": false
+      },
+      "durationNote": {
+        "ru": "Продолжительность не измерена.",
+        "en": "Duration has not been measured."
+      },
+      "examples": [
+        {
+          "id": "pp-v1-v08-example01",
+          "unitId": "pp-syl-cea04586375174ef",
+          "tibetan": "སེམས",
+          "wylie": "sems",
+          "analysis": {
+            "ru": "སེམས: коренная sa, знак e, суффикс ma и вторичный суффикс sa.",
+            "en": "སེམས: root sa, sign e, suffix ma and secondary suffix sa."
+          },
+          "components": {
+            "root": "sa",
+            "vowel": "e",
+            "suffix": "ma",
+            "secondarySuffix": "sa"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        },
+        {
+          "id": "pp-v1-v08-example02",
+          "unitId": "pp-syl-28c42f006c7f3cc6",
+          "tibetan": "བོན",
+          "wylie": "bon",
+          "analysis": {
+            "ru": "བོན: коренная ba, знак o, суффикс na.",
+            "en": "བོན: root ba, sign o and suffix na."
+          },
+          "components": {
+            "root": "ba",
+            "vowel": "o",
+            "suffix": "na"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        }
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "pp-l01-e01",
+      "lessonId": "pp-l01",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Выбери ཀ среди ཁ ཀ ག.",
+        "en": "Select ཀ from ཁ ཀ ག."
+      },
+      "answer": "ཀ",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Сравни форму целиком.",
+        "en": "Compare the whole shape."
+      },
+      "answerDisplay": {
+        "ru": "ཀ",
+        "en": "ཀ"
+      },
+      "unitRefs": [
+        "pp-letter-001",
+        "pp-letter-002",
+        "pp-letter-003",
+        "pp-letter-004",
+        "pp-letter-005",
+        "pp-letter-006",
+        "pp-letter-007",
+        "pp-letter-008",
+        "pp-letter-009",
+        "pp-letter-010",
+        "pp-letter-011",
+        "pp-letter-012",
+        "pp-letter-013",
+        "pp-letter-014",
+        "pp-letter-015"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l01-e02",
+      "lessonId": "pp-l01",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Соедини ང ཉ ན с nga nya na.",
+        "en": "Match ང ཉ ན with nga nya na."
+      },
+      "answer": {
+        "ང": "nga",
+        "ཉ": "nya",
+        "ན": "na"
+      },
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Это соответствие письма и транслитерации.",
+        "en": "This matches script to transliteration."
+      },
+      "answerDisplay": {
+        "ru": "ང → nga; ཉ → nya; ན → na",
+        "en": "ང → nga; ཉ → nya; ན → na"
+      },
+      "unitRefs": [
+        "pp-letter-001",
+        "pp-letter-002",
+        "pp-letter-003",
+        "pp-letter-004",
+        "pp-letter-005",
+        "pp-letter-006",
+        "pp-letter-007",
+        "pp-letter-008",
+        "pp-letter-009",
+        "pp-letter-010",
+        "pp-letter-011",
+        "pp-letter-012",
+        "pp-letter-013",
+        "pp-letter-014",
+        "pp-letter-015"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l01-visual07",
+      "lessonId": "pp-l01",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Выбери Wylie буквы ཁ: ka / kha / ga.",
+        "en": "Choose the Wylie spelling of ཁ: ka / kha / ga."
+      },
+      "answer": "kha",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "ཁ соответствует kha; ཀ — ka, ག — ga.",
+        "en": "ཁ corresponds to kha; ཀ is ka and ག is ga."
+      },
+      "answerDisplay": {
+        "ru": "kha",
+        "en": "kha"
+      },
+      "unitRefs": [
+        "pp-letter-001",
+        "pp-letter-002",
+        "pp-letter-003",
+        "pp-letter-004",
+        "pp-letter-005",
+        "pp-letter-006",
+        "pp-letter-007",
+        "pp-letter-008",
+        "pp-letter-009",
+        "pp-letter-010",
+        "pp-letter-011",
+        "pp-letter-012",
+        "pp-letter-013",
+        "pp-letter-014",
+        "pp-letter-015"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l01-e05",
+      "lessonId": "pp-l01",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Запиши Wylie буквы ཕ.",
+        "en": "Write the Wylie spelling of ཕ."
+      },
+      "answer": "pha",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "h входит в запись этой буквы.",
+        "en": "h is part of this letter’s spelling."
+      },
+      "answerDisplay": {
+        "ru": "pha",
+        "en": "pha"
+      },
+      "unitRefs": [
+        "pp-letter-001",
+        "pp-letter-002",
+        "pp-letter-003",
+        "pp-letter-004",
+        "pp-letter-005",
+        "pp-letter-006",
+        "pp-letter-007",
+        "pp-letter-008",
+        "pp-letter-009",
+        "pp-letter-010",
+        "pp-letter-011",
+        "pp-letter-012",
+        "pp-letter-013",
+        "pp-letter-014",
+        "pp-letter-015"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l02-e01",
+      "lessonId": "pp-l02",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Как записывается འ в Wylie?",
+        "en": "How is འ written in Wylie?"
+      },
+      "answer": "'a",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Апостроф сохраняется.",
+        "en": "Keep the apostrophe."
+      },
+      "answerDisplay": {
+        "ru": "'a",
+        "en": "'a"
+      },
+      "unitRefs": [
+        "pp-letter-016",
+        "pp-letter-017",
+        "pp-letter-018",
+        "pp-letter-019",
+        "pp-letter-020",
+        "pp-letter-021",
+        "pp-letter-022",
+        "pp-letter-023",
+        "pp-letter-024",
+        "pp-letter-025",
+        "pp-letter-026",
+        "pp-letter-027",
+        "pp-letter-028",
+        "pp-letter-029",
+        "pp-letter-030"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l02-e02",
+      "lessonId": "pp-l02",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Соедини ཞ ཟ ཤ ས с zha za sha sa.",
+        "en": "Match ཞ ཟ ཤ ས with zha za sha sa."
+      },
+      "answer": {
+        "ཞ": "zha",
+        "ཟ": "za",
+        "ཤ": "sha",
+        "ས": "sa"
+      },
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Различай форму, не угадывай звук.",
+        "en": "Distinguish shapes without guessing the sound."
+      },
+      "answerDisplay": {
+        "ru": "ཞ → zha; ཟ → za; ཤ → sha; ས → sa",
+        "en": "ཞ → zha; ཟ → za; ཤ → sha; ས → sa"
+      },
+      "unitRefs": [
+        "pp-letter-016",
+        "pp-letter-017",
+        "pp-letter-018",
+        "pp-letter-019",
+        "pp-letter-020",
+        "pp-letter-021",
+        "pp-letter-022",
+        "pp-letter-023",
+        "pp-letter-024",
+        "pp-letter-025",
+        "pp-letter-026",
+        "pp-letter-027",
+        "pp-letter-028",
+        "pp-letter-029",
+        "pp-letter-030"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l02-e03",
+      "lessonId": "pp-l02",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Какая буква следует за ཕ в алфавите?",
+        "en": "Which letter follows ཕ in alphabetic order?"
+      },
+      "answer": "བ",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Ряд pa pha ba ma.",
+        "en": "The row is pa pha ba ma."
+      },
+      "answerDisplay": {
+        "ru": "བ",
+        "en": "བ"
+      },
+      "unitRefs": [
+        "pp-letter-016",
+        "pp-letter-017",
+        "pp-letter-018",
+        "pp-letter-019",
+        "pp-letter-020",
+        "pp-letter-021",
+        "pp-letter-022",
+        "pp-letter-023",
+        "pp-letter-024",
+        "pp-letter-025",
+        "pp-letter-026",
+        "pp-letter-027",
+        "pp-letter-028",
+        "pp-letter-029",
+        "pp-letter-030"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l02-e04",
+      "lessonId": "pp-l02",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Запиши Wylie буквы ཚ.",
+        "en": "Write the Wylie spelling of ཚ."
+      },
+      "answer": "tsha",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "ཚ записывается tsha: сохрани все четыре латинские буквы.",
+        "en": "ཚ is written tsha: retain all four Latin letters."
+      },
+      "answerDisplay": {
+        "ru": "tsha",
+        "en": "tsha"
+      },
+      "unitRefs": [
+        "pp-letter-016",
+        "pp-letter-017",
+        "pp-letter-018",
+        "pp-letter-019",
+        "pp-letter-020",
+        "pp-letter-021",
+        "pp-letter-022",
+        "pp-letter-023",
+        "pp-letter-024",
+        "pp-letter-025",
+        "pp-letter-026",
+        "pp-letter-027",
+        "pp-letter-028",
+        "pp-letter-029",
+        "pp-letter-030"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l03-e01",
+      "lessonId": "pp-l03",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Запиши Wylie: ཀི.",
+        "en": "Write Wylie for ཀི."
+      },
+      "answer": "ki",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Знак над ཀ передаёт i.",
+        "en": "The sign above ཀ represents i."
+      },
+      "answerDisplay": {
+        "ru": "ki",
+        "en": "ki"
+      },
+      "unitRefs": [
+        "pp-letter-001",
+        "pp-vowel-02",
+        "pp-vowel-03",
+        "pp-vowel-04",
+        "pp-vowel-05"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l03-e02",
+      "lessonId": "pp-l03",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Выбери слог ku: ཀི ཀུ ཀོ.",
+        "en": "Choose ku: ཀི ཀུ ཀོ."
+      },
+      "answer": "ཀུ",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "u записана нижним знаком.",
+        "en": "u uses the lower vowel sign."
+      },
+      "answerDisplay": {
+        "ru": "ཀུ",
+        "en": "ཀུ"
+      },
+      "unitRefs": [
+        "pp-letter-001",
+        "pp-vowel-02",
+        "pp-vowel-03",
+        "pp-vowel-04",
+        "pp-vowel-05"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l03-e03",
+      "lessonId": "pp-l03",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Нужен ли добавочный знак гласной для ka?",
+        "en": "Does ka need an added vowel sign?"
+      },
+      "answer": false,
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "В этой простой форме a присущая.",
+        "en": "In this simple form a is inherent."
+      },
+      "answerDisplay": {
+        "ru": "Нет",
+        "en": "No"
+      },
+      "unitRefs": [
+        "pp-letter-001",
+        "pp-vowel-02",
+        "pp-vowel-03",
+        "pp-vowel-04",
+        "pp-vowel-05"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l03-e04",
+      "lessonId": "pp-l03",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Расположи ཀོ ཀ ཀུ ཀི ཀེ как ka ki ku ke ko.",
+        "en": "Order ཀོ ཀ ཀུ ཀི ཀེ as ka ki ku ke ko."
+      },
+      "answer": [
+        "ཀ",
+        "ཀི",
+        "ཀུ",
+        "ཀེ",
+        "ཀོ"
+      ],
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Сравни добавленный знак.",
+        "en": "Compare the added sign."
+      },
+      "answerDisplay": {
+        "ru": "ཀ · ཀི · ཀུ · ཀེ · ཀོ",
+        "en": "ཀ · ཀི · ཀུ · ཀེ · ཀོ"
+      },
+      "unitRefs": [
+        "pp-letter-001",
+        "pp-vowel-02",
+        "pp-vowel-03",
+        "pp-vowel-04",
+        "pp-vowel-05"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v04-e01",
+      "lessonId": "pp-v1-v04",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Назови коренную букву в chos.",
+        "en": "Name the root letter in chos."
+      },
+      "answer": "cha",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "ཆ — cha; o — гласная, sa — суффикс.",
+        "en": "ཆ is cha; o is the vowel and sa is the suffix."
+      },
+      "answerDisplay": {
+        "ru": "cha",
+        "en": "cha"
+      },
+      "unitRefs": [
+        "pp-syl-76d9fb2f6d49d08b",
+        "pp-syl-0320d185a1315c0a",
+        "pp-letter-013"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v04-e02",
+      "lessonId": "pp-v1-v04",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Раздели rig pa на слоги.",
+        "en": "Split rig pa into syllables."
+      },
+      "answer": [
+        "rig",
+        "pa"
+      ],
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Wylie-пробел разделяет эти слоги.",
+        "en": "The Wylie space separates these syllables."
+      },
+      "answerDisplay": {
+        "ru": "rig · pa",
+        "en": "rig · pa"
+      },
+      "unitRefs": [
+        "pp-syl-76d9fb2f6d49d08b",
+        "pp-syl-0320d185a1315c0a",
+        "pp-letter-013"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v04-e03",
+      "lessonId": "pp-v1-v04",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "В rig какая буква — суффикс?",
+        "en": "Which letter is the suffix in rig?"
+      },
+      "answer": "ga",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Она стоит после коренной с гласной.",
+        "en": "It follows the root and vowel."
+      },
+      "answerDisplay": {
+        "ru": "ga",
+        "en": "ga"
+      },
+      "unitRefs": [
+        "pp-syl-76d9fb2f6d49d08b",
+        "pp-syl-0320d185a1315c0a",
+        "pp-letter-013"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v04-visual07",
+      "lessonId": "pp-v1-v04",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Выбери Wylie написания ཆོས: chos / cos / chas.",
+        "en": "Choose the Wylie spelling of ཆོས: chos / cos / chas."
+      },
+      "answer": "chos",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "cha + знак o + суффикс sa дают chos; h и o сохраняются.",
+        "en": "cha + vowel sign o + suffix sa give chos; retain h and o."
+      },
+      "answerDisplay": {
+        "ru": "chos",
+        "en": "chos"
+      },
+      "unitRefs": [
+        "pp-syl-76d9fb2f6d49d08b",
+        "pp-syl-0320d185a1315c0a",
+        "pp-letter-013"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v05-e01",
+      "lessonId": "pp-v1-v05",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Какая приставка в bka'?",
+        "en": "What is the prefix in bka'?"
+      },
+      "answer": "ba",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Коренная — ka.",
+        "en": "The root is ka."
+      },
+      "answerDisplay": {
+        "ru": "ba",
+        "en": "ba"
+      },
+      "unitRefs": [
+        "pp-syl-612764833c1c4231",
+        "pp-syl-3b703e11845bd01e",
+        "pp-letter-001"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v05-e02",
+      "lessonId": "pp-v1-v05",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Какая коренная в gnas?",
+        "en": "What is the root in gnas?"
+      },
+      "answer": "na",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "ga — приставка, sa — суффикс.",
+        "en": "ga is the prefix; sa is the suffix."
+      },
+      "answerDisplay": {
+        "ru": "na",
+        "en": "na"
+      },
+      "unitRefs": [
+        "pp-syl-612764833c1c4231",
+        "pp-syl-3b703e11845bd01e",
+        "pp-letter-001"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v05-e03",
+      "lessonId": "pp-v1-v05",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "В ka обязательно есть приставка?",
+        "en": "Must ka contain a prefix?"
+      },
+      "answer": false,
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Простой слог может обходиться без приставки.",
+        "en": "A simple syllable can have no prefix."
+      },
+      "answerDisplay": {
+        "ru": "Нет",
+        "en": "No"
+      },
+      "unitRefs": [
+        "pp-syl-612764833c1c4231",
+        "pp-syl-3b703e11845bd01e",
+        "pp-letter-001"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v05-e04",
+      "lessonId": "pp-v1-v05",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Запиши bka' тибетским письмом.",
+        "en": "Write bka' in Tibetan script."
+      },
+      "answer": "བཀའ",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Сохрани конечную འ.",
+        "en": "Keep final འ."
+      },
+      "answerDisplay": {
+        "ru": "བཀའ",
+        "en": "བཀའ"
+      },
+      "unitRefs": [
+        "pp-syl-612764833c1c4231",
+        "pp-syl-3b703e11845bd01e",
+        "pp-letter-001"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v06-e01",
+      "lessonId": "pp-v1-v06",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Какая надписная в སྐུ?",
+        "en": "Which letter is superscribed in སྐུ?"
+      },
+      "answer": "sa",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "sa стоит над ka.",
+        "en": "sa sits above ka."
+      },
+      "answerDisplay": {
+        "ru": "sa",
+        "en": "sa"
+      },
+      "unitRefs": [],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v06-e02",
+      "lessonId": "pp-v1-v06",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Какая коренная в སྐུ?",
+        "en": "What is the root in སྐུ?"
+      },
+      "answer": "ka",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "sa надписана; u — знак гласной.",
+        "en": "sa is superscribed; u is the vowel sign."
+      },
+      "answerDisplay": {
+        "ru": "ka",
+        "en": "ka"
+      },
+      "unitRefs": [],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v06-e03",
+      "lessonId": "pp-v1-v06",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Какая надписная в རྒྱལ?",
+        "en": "Which letter is superscribed in རྒྱལ?"
+      },
+      "answer": "ra",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "ra располагается над коренной ga.",
+        "en": "ra sits above root ga."
+      },
+      "answerDisplay": {
+        "ru": "ra",
+        "en": "ra"
+      },
+      "unitRefs": [],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v06-e04",
+      "lessonId": "pp-v1-v06",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Назови коренную в རྒྱལ.",
+        "en": "Name the root in རྒྱལ."
+      },
+      "answer": "ga",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "ra надписана, ya подписана.",
+        "en": "ra is superscribed and ya is subjoined."
+      },
+      "answerDisplay": {
+        "ru": "ga",
+        "en": "ga"
+      },
+      "unitRefs": [],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v07-e01",
+      "lessonId": "pp-v1-v07",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Какая подписная в ཀྱ?",
+        "en": "Which letter is subjoined in ཀྱ?"
+      },
+      "answer": "ya",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "ྱ — подписная форма ya.",
+        "en": "ྱ is the subjoined form of ya."
+      },
+      "answerDisplay": {
+        "ru": "ya",
+        "en": "ya"
+      },
+      "unitRefs": [],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v07-e02",
+      "lessonId": "pp-v1-v07",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Какая коренная в བྱ?",
+        "en": "What is the root in བྱ?"
+      },
+      "answer": "ba",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "ya находится под ba.",
+        "en": "ya is below ba."
+      },
+      "answerDisplay": {
+        "ru": "ba",
+        "en": "ba"
+      },
+      "unitRefs": [],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v07-e03",
+      "lessonId": "pp-v1-v07",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Запиши Wylie: ཀྱ.",
+        "en": "Write Wylie for ཀྱ."
+      },
+      "answer": "kya",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "k записывает коренную, y — подписную; a присущая.",
+        "en": "k records the root, y the subscript; a is inherent."
+      },
+      "answerDisplay": {
+        "ru": "kya",
+        "en": "kya"
+      },
+      "unitRefs": [],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v07-e04",
+      "lessonId": "pp-v1-v07",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Какая подписная в རྒྱལ?",
+        "en": "Which letter is subjoined in རྒྱལ?"
+      },
+      "answer": "ya",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "ya под ga; ra надписана.",
+        "en": "ya is below ga; ra is superscribed."
+      },
+      "answerDisplay": {
+        "ru": "ya",
+        "en": "ya"
+      },
+      "unitRefs": [],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v08-e01",
+      "lessonId": "pp-v1-v08",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Разбери sems: коренная, гласная, суффикс, вторичный суффикс.",
+        "en": "Analyse sems: root, vowel, suffix, secondary suffix."
+      },
+      "answer": [
+        "sa",
+        "e",
+        "ma",
+        "sa"
+      ],
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Одна s начинает слог, другая завершает его.",
+        "en": "One s starts the syllable and another ends it."
+      },
+      "answerDisplay": {
+        "ru": "sa · e · ma · sa",
+        "en": "sa · e · ma · sa"
+      },
+      "unitRefs": [
+        "pp-syl-cea04586375174ef",
+        "pp-syl-28c42f006c7f3cc6",
+        "pp-syl-0320d185a1315c0a"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v08-e02",
+      "lessonId": "pp-v1-v08",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Сколько слогов в སེམས?",
+        "en": "How many syllables are in སེམས?"
+      },
+      "answer": 1,
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Конечные буквы входят в один слог.",
+        "en": "The final letters belong to a single syllable."
+      },
+      "answerDisplay": {
+        "ru": "1",
+        "en": "1"
+      },
+      "unitRefs": [],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v08-e03",
+      "lessonId": "pp-v1-v08",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "В bon какой суффикс?",
+        "en": "What is the suffix in bon?"
+      },
+      "answer": "na",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "ba — коренная, o — гласная.",
+        "en": "ba is the root and o the vowel."
+      },
+      "answerDisplay": {
+        "ru": "na",
+        "en": "na"
+      },
+      "unitRefs": [
+        "pp-syl-cea04586375174ef",
+        "pp-syl-28c42f006c7f3cc6",
+        "pp-syl-0320d185a1315c0a"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v08-visual07",
+      "lessonId": "pp-v1-v08",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Выбери Wylie написания བོན: bon / bo.",
+        "en": "Choose the Wylie spelling of བོན: bon / bo."
+      },
+      "answer": "bon",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Конечная na сохраняется как n в bon.",
+        "en": "Final na is retained as n in bon."
+      },
+      "answerDisplay": {
+        "ru": "bon",
+        "en": "bon"
+      },
+      "unitRefs": [
+        "pp-syl-cea04586375174ef",
+        "pp-syl-28c42f006c7f3cc6",
+        "pp-syl-0320d185a1315c0a"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l01-visual06",
+      "lessonId": "pp-l01",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Выбери Wylie буквы ཅ: ca / cha / ja.",
+        "en": "Choose the Wylie spelling of ཅ: ca / cha / ja."
+      },
+      "answer": "ca",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "ཅ записывается ca; cha обозначает другую букву ཆ.",
+        "en": "ཅ is written ca; cha denotes the different letter ཆ."
+      },
+      "answerDisplay": {
+        "ru": "ca",
+        "en": "ca"
+      },
+      "unitRefs": [
+        "pp-letter-001",
+        "pp-letter-002",
+        "pp-letter-003",
+        "pp-letter-004",
+        "pp-letter-005",
+        "pp-letter-006",
+        "pp-letter-007",
+        "pp-letter-008",
+        "pp-letter-009",
+        "pp-letter-010",
+        "pp-letter-011",
+        "pp-letter-012",
+        "pp-letter-013",
+        "pp-letter-014",
+        "pp-letter-015"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l02-visual06",
+      "lessonId": "pp-l02",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Выбери Wylie буквы ཨ: a / 'a.",
+        "en": "Choose the Wylie spelling of ཨ: a / 'a."
+      },
+      "answer": "a",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "ཨ — a, а འ — 'a; это разные буквы.",
+        "en": "ཨ is a and འ is 'a; they are different letters."
+      },
+      "answerDisplay": {
+        "ru": "a",
+        "en": "a"
+      },
+      "unitRefs": [
+        "pp-letter-016",
+        "pp-letter-017",
+        "pp-letter-018",
+        "pp-letter-019",
+        "pp-letter-020",
+        "pp-letter-021",
+        "pp-letter-022",
+        "pp-letter-023",
+        "pp-letter-024",
+        "pp-letter-025",
+        "pp-letter-026",
+        "pp-letter-027",
+        "pp-letter-028",
+        "pp-letter-029",
+        "pp-letter-030"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l03-visual06",
+      "lessonId": "pp-l03",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Выбери Wylie формы ཀེ: ki / ke / ko.",
+        "en": "Choose the Wylie spelling of ཀེ: ki / ke / ko."
+      },
+      "answer": "ke",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Знак ེ над ka обозначает e: ke.",
+        "en": "The sign ེ above ka marks e: ke."
+      },
+      "answerDisplay": {
+        "ru": "ke",
+        "en": "ke"
+      },
+      "unitRefs": [
+        "pp-letter-001",
+        "pp-vowel-02",
+        "pp-vowel-03",
+        "pp-vowel-04",
+        "pp-vowel-05"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v04-visual06",
+      "lessonId": "pp-v1-v04",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Какой знак гласной в རིག? Ответь i / e / o.",
+        "en": "Which vowel sign is in རིག? Answer i / e / o."
+      },
+      "answer": "i",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Знак ི стоит над ra; Wylie целого слога — rig.",
+        "en": "The sign ི is above ra; the whole syllable is rig in Wylie."
+      },
+      "answerDisplay": {
+        "ru": "i",
+        "en": "i"
+      },
+      "unitRefs": [
+        "pp-syl-76d9fb2f6d49d08b",
+        "pp-syl-0320d185a1315c0a",
+        "pp-letter-013"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v05-visual06",
+      "lessonId": "pp-v1-v05",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Какая конечная буква в བཀའ? Ответь ka / 'a / sa.",
+        "en": "Which final letter is in བཀའ? Answer ka / 'a / sa."
+      },
+      "answer": "'a",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Последняя буква — འ, то есть 'a; её нельзя опускать в bka'.",
+        "en": "The final letter is འ, or 'a; retain it in bka'."
+      },
+      "answerDisplay": {
+        "ru": "'a",
+        "en": "'a"
+      },
+      "unitRefs": [
+        "pp-syl-612764833c1c4231",
+        "pp-syl-3b703e11845bd01e",
+        "pp-letter-001"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v06-visual06",
+      "lessonId": "pp-v1-v06",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Какой знак гласной в སྐུ? Ответь i / u / e.",
+        "en": "Which vowel sign is in སྐུ? Answer i / u / e."
+      },
+      "answer": "u",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Нижний знак ུ обозначает u; надписная sa и коренная ka образуют стек.",
+        "en": "The lower sign ུ marks u; superscribed sa and root ka form the stack."
+      },
+      "answerDisplay": {
+        "ru": "u",
+        "en": "u"
+      },
+      "unitRefs": [
+        "pp-syl-5840bef6d52dc0fe",
+        "pp-syl-27cc11d3df8c9a6d"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v07-visual06",
+      "lessonId": "pp-v1-v07",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Выбери Wylie формы བྱ: bya / ba / kya.",
+        "en": "Choose the Wylie spelling of བྱ: bya / ba / kya."
+      },
+      "answer": "bya",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "Коренная ba и подписная ya без другого гласного знака записываются bya.",
+        "en": "Root ba with subjoined ya and no other vowel sign is written bya."
+      },
+      "answerDisplay": {
+        "ru": "bya",
+        "en": "bya"
+      },
+      "unitRefs": [
+        "pp-syl-1534d8691a23c33b",
+        "pp-syl-e8ca548b0047a932",
+        "pp-syl-27cc11d3df8c9a6d"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v08-visual06",
+      "lessonId": "pp-v1-v08",
+      "type": "structured_answer",
+      "assessmentMode": "visual",
+      "prompt": {
+        "ru": "Какая буква является вторичным суффиксом в སེམས? Ответь sa / ma / na.",
+        "en": "Which letter is the secondary suffix in སེམས? Answer sa / ma / na."
+      },
+      "answer": "sa",
+      "answerValidation": {
+        "kind": "exact_json_value",
+        "caseSensitive": true,
+        "unicodeNormalization": "none",
+        "trimWhitespace": false,
+        "aliases": []
+      },
+      "scoring": {
+        "correct": 1,
+        "incorrect": 0,
+        "audioMissing": "not_applicable"
+      },
+      "rationale": {
+        "ru": "После суффикса ma стоит вторичная sa; первая sa — коренная.",
+        "en": "Secondary sa follows suffix ma; the first sa is the root."
+      },
+      "answerDisplay": {
+        "ru": "sa",
+        "en": "sa"
+      },
+      "unitRefs": [
+        "pp-syl-cea04586375174ef",
+        "pp-syl-28c42f006c7f3cc6",
+        "pp-syl-0320d185a1315c0a"
+      ],
+      "requiresAudio": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    }
+  ],
+  "listening": [
+    {
+      "id": "pp-l01-e04",
+      "lessonId": "pp-l01",
+      "type": "unscored_listening_example",
+      "assessmentMode": "unscored",
+      "prompt": {
+        "ru": "Прослушай запись и выбери соответствующее написание.",
+        "en": "Listen and choose the matching spelling."
+      },
+      "options": [
+        "pp-letter-001",
+        "pp-letter-002",
+        "pp-letter-003"
+      ],
+      "answer": "pp-letter-002",
+      "audioRef": "pp-letter-002",
+      "available": true,
+      "availabilityMessage": null,
+      "countsTowardCompletion": false,
+      "errorOnSkip": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l02-e05",
+      "lessonId": "pp-l02",
+      "type": "unscored_listening_example",
+      "assessmentMode": "unscored",
+      "prompt": {
+        "ru": "Прослушай запись и выбери соответствующее написание.",
+        "en": "Listen and choose the matching spelling."
+      },
+      "options": [
+        "pp-letter-017",
+        "pp-letter-018",
+        "pp-letter-019"
+      ],
+      "answer": "pp-letter-018",
+      "audioRef": "pp-letter-018",
+      "available": false,
+      "availabilityMessage": {
+        "ru": "Необязательный слуховой пример; пропуск не даёт балла или ошибки.",
+        "en": "Optional listening example; skipping gives neither points nor an error."
+      },
+      "countsTowardCompletion": false,
+      "errorOnSkip": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-l03-e05",
+      "lessonId": "pp-l03",
+      "type": "unscored_listening_example",
+      "assessmentMode": "unscored",
+      "prompt": {
+        "ru": "Прослушай запись и выбери соответствующее написание.",
+        "en": "Listen and choose the matching spelling."
+      },
+      "options": [
+        "pp-vowel-02",
+        "pp-vowel-03",
+        "pp-vowel-05"
+      ],
+      "answer": "pp-vowel-02",
+      "audioRef": "pp-vowel-02",
+      "available": false,
+      "availabilityMessage": {
+        "ru": "Необязательный слуховой пример; пропуск не даёт балла или ошибки.",
+        "en": "Optional listening example; skipping gives neither points nor an error."
+      },
+      "countsTowardCompletion": false,
+      "errorOnSkip": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v04-e05",
+      "lessonId": "pp-v1-v04",
+      "type": "unscored_listening_example",
+      "assessmentMode": "unscored",
+      "prompt": {
+        "ru": "Прослушай запись и выбери соответствующее написание.",
+        "en": "Listen and choose the matching spelling."
+      },
+      "options": [
+        "pp-syl-76d9fb2f6d49d08b",
+        "pp-syl-0320d185a1315c0a",
+        "pp-letter-013"
+      ],
+      "answer": "pp-syl-0320d185a1315c0a",
+      "audioRef": "pp-syl-0320d185a1315c0a",
+      "available": false,
+      "availabilityMessage": {
+        "ru": "Необязательный слуховой пример; пропуск не даёт балла или ошибки.",
+        "en": "Optional listening example; skipping gives neither points nor an error."
+      },
+      "countsTowardCompletion": false,
+      "errorOnSkip": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v05-e05",
+      "lessonId": "pp-v1-v05",
+      "type": "unscored_listening_example",
+      "assessmentMode": "unscored",
+      "prompt": {
+        "ru": "Прослушай запись и выбери соответствующее написание.",
+        "en": "Listen and choose the matching spelling."
+      },
+      "options": [
+        "pp-syl-612764833c1c4231",
+        "pp-syl-3b703e11845bd01e",
+        "pp-letter-001"
+      ],
+      "answer": "pp-syl-3b703e11845bd01e",
+      "audioRef": "pp-syl-3b703e11845bd01e",
+      "available": false,
+      "availabilityMessage": {
+        "ru": "Необязательный слуховой пример; пропуск не даёт балла или ошибки.",
+        "en": "Optional listening example; skipping gives neither points nor an error."
+      },
+      "countsTowardCompletion": false,
+      "errorOnSkip": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v06-e05",
+      "lessonId": "pp-v1-v06",
+      "type": "unscored_listening_example",
+      "assessmentMode": "unscored",
+      "prompt": {
+        "ru": "Прослушай запись и выбери соответствующее написание.",
+        "en": "Listen and choose the matching spelling."
+      },
+      "options": [
+        "pp-syl-5840bef6d52dc0fe",
+        "pp-syl-27cc11d3df8c9a6d",
+        "pp-letter-001"
+      ],
+      "answer": "pp-syl-5840bef6d52dc0fe",
+      "audioRef": "pp-syl-5840bef6d52dc0fe",
+      "available": false,
+      "availabilityMessage": {
+        "ru": "Необязательный слуховой пример; пропуск не даёт балла или ошибки.",
+        "en": "Optional listening example; skipping gives neither points nor an error."
+      },
+      "countsTowardCompletion": false,
+      "errorOnSkip": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v07-e05",
+      "lessonId": "pp-v1-v07",
+      "type": "unscored_listening_example",
+      "assessmentMode": "unscored",
+      "prompt": {
+        "ru": "Прослушай запись и выбери соответствующее написание.",
+        "en": "Listen and choose the matching spelling."
+      },
+      "options": [
+        "pp-syl-1534d8691a23c33b",
+        "pp-syl-e8ca548b0047a932",
+        "pp-syl-27cc11d3df8c9a6d"
+      ],
+      "answer": "pp-syl-1534d8691a23c33b",
+      "audioRef": "pp-syl-1534d8691a23c33b",
+      "available": false,
+      "availabilityMessage": {
+        "ru": "Необязательный слуховой пример; пропуск не даёт балла или ошибки.",
+        "en": "Optional listening example; skipping gives neither points nor an error."
+      },
+      "countsTowardCompletion": false,
+      "errorOnSkip": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-v1-v08-e05",
+      "lessonId": "pp-v1-v08",
+      "type": "unscored_listening_example",
+      "assessmentMode": "unscored",
+      "prompt": {
+        "ru": "Прослушай запись и выбери соответствующее написание.",
+        "en": "Listen and choose the matching spelling."
+      },
+      "options": [
+        "pp-syl-cea04586375174ef",
+        "pp-syl-28c42f006c7f3cc6",
+        "pp-syl-0320d185a1315c0a"
+      ],
+      "answer": "pp-syl-cea04586375174ef",
+      "audioRef": "pp-syl-cea04586375174ef",
+      "available": false,
+      "availabilityMessage": {
+        "ru": "Необязательный слуховой пример; пропуск не даёт балла или ошибки.",
+        "en": "Optional listening example; skipping gives neither points nor an error."
+      },
+      "countsTowardCompletion": false,
+      "errorOnSkip": false,
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    }
+  ],
+  "units": [
+    {
+      "id": "pp-letter-001",
+      "kind": "consonant",
+      "tibetan": "ཀ",
+      "wylie": "ka",
+      "label": {
+        "ru": "Буква ka",
+        "en": "Letter ka"
+      },
+      "audioRef": "pp-letter-001",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-001.wav",
+        "sha256": "569fb16879398761d66e62f0ea0e1aa3df115f698e71138a431032f5f79472d8",
+        "bytes": 160678
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-002",
+      "kind": "consonant",
+      "tibetan": "ཁ",
+      "wylie": "kha",
+      "label": {
+        "ru": "Буква kha",
+        "en": "Letter kha"
+      },
+      "audioRef": "pp-letter-002",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-002.wav",
+        "sha256": "839d8d9352c1da54f9a48bc2830739cc2583157f27ff73c190de04ad558e8a41",
+        "bytes": 162480
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-003",
+      "kind": "consonant",
+      "tibetan": "ག",
+      "wylie": "ga",
+      "label": {
+        "ru": "Буква ga",
+        "en": "Letter ga"
+      },
+      "audioRef": "pp-letter-003",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-003.wav",
+        "sha256": "5a38273aaad78960556c55e2e7d6ae5e35e3e7db7629c42da785d23f36e33aea",
+        "bytes": 40372
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-004",
+      "kind": "consonant",
+      "tibetan": "ང",
+      "wylie": "nga",
+      "label": {
+        "ru": "Буква nga",
+        "en": "Letter nga"
+      },
+      "audioRef": "pp-letter-004",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-004.wav",
+        "sha256": "e430cffe377a056cfe54a75269f64afb7ed198687e3af869a02172dcd120293f",
+        "bytes": 50498
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-005",
+      "kind": "consonant",
+      "tibetan": "ཅ",
+      "wylie": "ca",
+      "label": {
+        "ru": "Буква ca",
+        "en": "Letter ca"
+      },
+      "audioRef": "pp-letter-005",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-005.wav",
+        "sha256": "dc841f83b07e07b1351dec4a7175489cf31d2d8cb7f6173e8117b64410faf024",
+        "bytes": 179406
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-006",
+      "kind": "consonant",
+      "tibetan": "ཆ",
+      "wylie": "cha",
+      "label": {
+        "ru": "Буква cha",
+        "en": "Letter cha"
+      },
+      "audioRef": "pp-letter-006",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-006.wav",
+        "sha256": "dbb2dce677f9162d0e7cb0056a4d3a03d5fe21a056f790e0434ef6ff0d66ec95",
+        "bytes": 39572
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-007",
+      "kind": "consonant",
+      "tibetan": "ཇ",
+      "wylie": "ja",
+      "label": {
+        "ru": "Буква ja",
+        "en": "Letter ja"
+      },
+      "audioRef": "pp-letter-007",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-007.wav",
+        "sha256": "8c030e379672224887ab854fc005cd92c721008c9e57eee85fc61d09fd375787",
+        "bytes": 43356
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-008",
+      "kind": "consonant",
+      "tibetan": "ཉ",
+      "wylie": "nya",
+      "label": {
+        "ru": "Буква nya",
+        "en": "Letter nya"
+      },
+      "audioRef": "pp-letter-008",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-008.wav",
+        "sha256": "798e28c4768957f7892c0437a703e31100ba35fcebec2d3a948266652e017dfb",
+        "bytes": 187876
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-009",
+      "kind": "consonant",
+      "tibetan": "ཏ",
+      "wylie": "ta",
+      "label": {
+        "ru": "Буква ta",
+        "en": "Letter ta"
+      },
+      "audioRef": "pp-letter-009",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-009.wav",
+        "sha256": "51db2a9f13fa9128c8d8f97948730f6d6af336cca0f0d40f72b272ca056ed4e9",
+        "bytes": 156428
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-010",
+      "kind": "consonant",
+      "tibetan": "ཐ",
+      "wylie": "tha",
+      "label": {
+        "ru": "Буква tha",
+        "en": "Letter tha"
+      },
+      "audioRef": "pp-letter-010",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-010.wav",
+        "sha256": "4e741ebcf484885cdc99c54197d137d73c3900b793ae29369b98fc27ef499dce",
+        "bytes": 37020
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-011",
+      "kind": "consonant",
+      "tibetan": "ད",
+      "wylie": "da",
+      "label": {
+        "ru": "Буква da",
+        "en": "Letter da"
+      },
+      "audioRef": "pp-letter-011",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-011.wav",
+        "sha256": "d3798b5a1b09e045b515229ca2e03780fbda0a37ddd5e4da8e4ba8bf3699bcf6",
+        "bytes": 39168
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-012",
+      "kind": "consonant",
+      "tibetan": "ན",
+      "wylie": "na",
+      "label": {
+        "ru": "Буква na",
+        "en": "Letter na"
+      },
+      "audioRef": "pp-letter-012",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-012.wav",
+        "sha256": "88ad0c8312b3218d67eb4ee1a9c8f3f23f8e82ed60b9db3b1fc531f315fb749b",
+        "bytes": 188462
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-013",
+      "kind": "consonant",
+      "tibetan": "པ",
+      "wylie": "pa",
+      "label": {
+        "ru": "Буква pa",
+        "en": "Letter pa"
+      },
+      "audioRef": "pp-letter-013",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-013.wav",
+        "sha256": "1c0f6af7e8ed8dda690619802c4037fe5499215cff7a9a8497d589c1f1418f9b",
+        "bytes": 168538
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-014",
+      "kind": "consonant",
+      "tibetan": "ཕ",
+      "wylie": "pha",
+      "label": {
+        "ru": "Буква pha",
+        "en": "Letter pha"
+      },
+      "audioRef": "pp-letter-014",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-014.wav",
+        "sha256": "ea89ab5b1a10124746a69e4d26c3edd0f2b6e73692fab5d31c85757e437091a7",
+        "bytes": 38102
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-015",
+      "kind": "consonant",
+      "tibetan": "བ",
+      "wylie": "ba",
+      "label": {
+        "ru": "Буква ba",
+        "en": "Letter ba"
+      },
+      "audioRef": "pp-letter-015",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-015.wav",
+        "sha256": "da351f119552fc79be351f28b4d9d9b9b96931142172eb7f30e0d82161e00b73",
+        "bytes": 39328
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-016",
+      "kind": "consonant",
+      "tibetan": "མ",
+      "wylie": "ma",
+      "label": {
+        "ru": "Буква ma",
+        "en": "Letter ma"
+      },
+      "audioRef": "pp-letter-016",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-016.wav",
+        "sha256": "99390985386cc91d1132c0364bbbb0bba483599de3f451db35fdebb68778166a",
+        "bytes": 185862
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-017",
+      "kind": "consonant",
+      "tibetan": "ཙ",
+      "wylie": "tsa",
+      "label": {
+        "ru": "Буква tsa",
+        "en": "Letter tsa"
+      },
+      "audioRef": "pp-letter-017",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-017.wav",
+        "sha256": "fdf82a23495442c0481dea94a4d1a0eb861e918952f6e934121cbc020a19eb0e",
+        "bytes": 171018
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-018",
+      "kind": "consonant",
+      "tibetan": "ཚ",
+      "wylie": "tsha",
+      "label": {
+        "ru": "Буква tsha",
+        "en": "Letter tsha"
+      },
+      "audioRef": "pp-letter-018",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-018.wav",
+        "sha256": "7043a2d0d160f486d6f4344a194a420c74c74b280dd3c961eca34b0c9bae9895",
+        "bytes": 41104
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-019",
+      "kind": "consonant",
+      "tibetan": "ཛ",
+      "wylie": "dza",
+      "label": {
+        "ru": "Буква dza",
+        "en": "Letter dza"
+      },
+      "audioRef": "pp-letter-019",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-019.wav",
+        "sha256": "eff8e2634a4cc395b6551f4202b73ff0dbdd45d465da2b1c940f9942981669a5",
+        "bytes": 41668
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-020",
+      "kind": "consonant",
+      "tibetan": "ཝ",
+      "wylie": "wa",
+      "label": {
+        "ru": "Буква wa",
+        "en": "Letter wa"
+      },
+      "audioRef": "pp-letter-020",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-020.wav",
+        "sha256": "70b592b6e0b33de2419be9790de9db19c81a1e97903ad8e2e37d95fcf4104d3b",
+        "bytes": 177580
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-021",
+      "kind": "consonant",
+      "tibetan": "ཞ",
+      "wylie": "zha",
+      "label": {
+        "ru": "Буква zha",
+        "en": "Letter zha"
+      },
+      "audioRef": "pp-letter-021",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-021.wav",
+        "sha256": "a02dcc0e9bb1e7bea27ebbb1f6f09562841b04460e2de00e67749d2566a80d7e",
+        "bytes": 48932
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-022",
+      "kind": "consonant",
+      "tibetan": "ཟ",
+      "wylie": "za",
+      "label": {
+        "ru": "Буква za",
+        "en": "Letter za"
+      },
+      "audioRef": "pp-letter-022",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-022.wav",
+        "sha256": "c03a6642102caeef76d50f9608656fbe490930bef859bafaa00f8f91d8ab9197",
+        "bytes": 44840
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-023",
+      "kind": "consonant",
+      "tibetan": "འ",
+      "wylie": "'a",
+      "label": {
+        "ru": "Буква 'a",
+        "en": "Letter 'a"
+      },
+      "audioRef": "pp-letter-023",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-023.wav",
+        "sha256": "67fa3815eca516ace9cd824dcabe490a2a21ee3e56dc9a2dd63da7db4e4feaec",
+        "bytes": 38548
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-024",
+      "kind": "consonant",
+      "tibetan": "ཡ",
+      "wylie": "ya",
+      "label": {
+        "ru": "Буква ya",
+        "en": "Letter ya"
+      },
+      "audioRef": "pp-letter-024",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-024.wav",
+        "sha256": "f10894f0b916f80fc73027fab61712227a0bb27af180a3fbfe9be2d55f6c70b3",
+        "bytes": 164702
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-025",
+      "kind": "consonant",
+      "tibetan": "ར",
+      "wylie": "ra",
+      "label": {
+        "ru": "Буква ra",
+        "en": "Letter ra"
+      },
+      "audioRef": "pp-letter-025",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-025.wav",
+        "sha256": "c04f4b3ef6100faa17d7bc9fbc5b865ded9fda62cd26971a4605d855565094f7",
+        "bytes": 187482
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-026",
+      "kind": "consonant",
+      "tibetan": "ལ",
+      "wylie": "la",
+      "label": {
+        "ru": "Буква la",
+        "en": "Letter la"
+      },
+      "audioRef": "pp-letter-026",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-026.wav",
+        "sha256": "a2d32811edb7baac95cc97a0bd21e3cb47ae23c511db6c1c5c92a6779f4537f1",
+        "bytes": 38678
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-027",
+      "kind": "consonant",
+      "tibetan": "ཤ",
+      "wylie": "sha",
+      "label": {
+        "ru": "Буква sha",
+        "en": "Letter sha"
+      },
+      "audioRef": "pp-letter-027",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-027.wav",
+        "sha256": "43afa15199e886a6ed1eaeafb33c55d80f0889ab3b328866afafa12109c4bad8",
+        "bytes": 47894
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-028",
+      "kind": "consonant",
+      "tibetan": "ས",
+      "wylie": "sa",
+      "label": {
+        "ru": "Буква sa",
+        "en": "Letter sa"
+      },
+      "audioRef": "pp-letter-028",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-028.wav",
+        "sha256": "759949b5ae8a1781c72cc7ec81d8a595a23d8650f22c457416cf4df3e09cbd2b",
+        "bytes": 48402
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-029",
+      "kind": "consonant",
+      "tibetan": "ཧ",
+      "wylie": "ha",
+      "label": {
+        "ru": "Буква ha",
+        "en": "Letter ha"
+      },
+      "audioRef": "pp-letter-029",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-029.wav",
+        "sha256": "1df33519cca1b6461004a8f025e751f9363786922bb17045c9ad90d74c8d3db9",
+        "bytes": 163112
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-letter-030",
+      "kind": "consonant",
+      "tibetan": "ཨ",
+      "wylie": "a",
+      "label": {
+        "ru": "Буква a",
+        "en": "Letter a"
+      },
+      "audioRef": "pp-letter-030",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-letter-030.wav",
+        "sha256": "3125d81672c66c757bb72a59be8fc1e13a99d7a569fd29eaed70f11292a0372d",
+        "bytes": 145330
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-vowel-02",
+      "kind": "vowel",
+      "tibetan": "ི",
+      "wylie": "i",
+      "label": {
+        "ru": "Знак i",
+        "en": "Sign i"
+      },
+      "audioRef": "pp-vowel-02",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-vowel-02.wav",
+        "sha256": "2f628a70fdbfcce74c3aacdc74127b1f63a94439bb348d28efc5e389d79b7a3f",
+        "bytes": 30130
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-vowel-03",
+      "kind": "vowel",
+      "tibetan": "ུ",
+      "wylie": "u",
+      "label": {
+        "ru": "Знак u",
+        "en": "Sign u"
+      },
+      "audioRef": "pp-vowel-03",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-vowel-03.wav",
+        "sha256": "4280868596c71c10ed3d87abab46762250991d3610978e7e6eb5ffc27b481522",
+        "bytes": 28952
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-vowel-04",
+      "kind": "vowel",
+      "tibetan": "ེ",
+      "wylie": "e",
+      "label": {
+        "ru": "Знак e",
+        "en": "Sign e"
+      },
+      "audioRef": "pp-vowel-04",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-vowel-04.wav",
+        "sha256": "1e9aca88adb5434cfb10395bb8a360ce1b36b4befa617344d9c27153862605c8",
+        "bytes": 30280
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-vowel-05",
+      "kind": "vowel",
+      "tibetan": "ོ",
+      "wylie": "o",
+      "label": {
+        "ru": "Знак o",
+        "en": "Sign o"
+      },
+      "audioRef": "pp-vowel-05",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-vowel-05.wav",
+        "sha256": "2784ae1e55d54f44abb8392ad7111b0d34614920ede09a337460b76bf8895be1",
+        "bytes": 26284
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-syl-76d9fb2f6d49d08b",
+      "kind": "syllable",
+      "tibetan": "ཆོས",
+      "wylie": "chos",
+      "label": {
+        "ru": "Учебный слог chos",
+        "en": "Practice syllable chos"
+      },
+      "audioRef": "pp-syl-76d9fb2f6d49d08b",
+      "audio": {
+        "status": "missing"
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-syl-0320d185a1315c0a",
+      "kind": "syllable",
+      "tibetan": "རིག",
+      "wylie": "rig",
+      "label": {
+        "ru": "Учебный слог rig",
+        "en": "Practice syllable rig"
+      },
+      "audioRef": "pp-syl-0320d185a1315c0a",
+      "audio": {
+        "status": "missing"
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-syl-612764833c1c4231",
+      "kind": "syllable",
+      "tibetan": "བཀའ",
+      "wylie": "bka'",
+      "label": {
+        "ru": "Учебный слог bka'",
+        "en": "Practice syllable bka'"
+      },
+      "audioRef": "pp-syl-612764833c1c4231",
+      "audio": {
+        "status": "available",
+        "path": "audio/clips/pp-syl-612764833c1c4231.wav",
+        "sha256": "1a7940fa306ea0a4ff228c8196e4a7f1484558d20ca6d4b1780bc207272cc189",
+        "bytes": 63468
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-syl-3b703e11845bd01e",
+      "kind": "syllable",
+      "tibetan": "གནས",
+      "wylie": "gnas",
+      "label": {
+        "ru": "Учебный слог gnas",
+        "en": "Practice syllable gnas"
+      },
+      "audioRef": "pp-syl-3b703e11845bd01e",
+      "audio": {
+        "status": "missing"
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-syl-5840bef6d52dc0fe",
+      "kind": "syllable",
+      "tibetan": "སྐུ",
+      "wylie": "sku",
+      "label": {
+        "ru": "Учебный слог sku",
+        "en": "Practice syllable sku"
+      },
+      "audioRef": "pp-syl-5840bef6d52dc0fe",
+      "audio": {
+        "status": "missing"
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-syl-27cc11d3df8c9a6d",
+      "kind": "syllable",
+      "tibetan": "རྒྱལ",
+      "wylie": "rgyal",
+      "label": {
+        "ru": "Учебный слог rgyal",
+        "en": "Practice syllable rgyal"
+      },
+      "audioRef": "pp-syl-27cc11d3df8c9a6d",
+      "audio": {
+        "status": "missing"
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-syl-1534d8691a23c33b",
+      "kind": "syllable",
+      "tibetan": "ཀྱ",
+      "wylie": "kya",
+      "label": {
+        "ru": "Учебный слог kya",
+        "en": "Practice syllable kya"
+      },
+      "audioRef": "pp-syl-1534d8691a23c33b",
+      "audio": {
+        "status": "missing"
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-syl-e8ca548b0047a932",
+      "kind": "syllable",
+      "tibetan": "བྱ",
+      "wylie": "bya",
+      "label": {
+        "ru": "Учебный слог bya",
+        "en": "Practice syllable bya"
+      },
+      "audioRef": "pp-syl-e8ca548b0047a932",
+      "audio": {
+        "status": "missing"
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-syl-cea04586375174ef",
+      "kind": "syllable",
+      "tibetan": "སེམས",
+      "wylie": "sems",
+      "label": {
+        "ru": "Учебный слог sems",
+        "en": "Practice syllable sems"
+      },
+      "audioRef": "pp-syl-cea04586375174ef",
+      "audio": {
+        "status": "missing"
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    },
+    {
+      "id": "pp-syl-28c42f006c7f3cc6",
+      "kind": "syllable",
+      "tibetan": "བོན",
+      "wylie": "bon",
+      "label": {
+        "ru": "Учебный слог bon",
+        "en": "Practice syllable bon"
+      },
+      "audioRef": "pp-syl-28c42f006c7f3cc6",
+      "audio": {
+        "status": "missing"
+      },
+      "provenance": {
+        "rightsBasis": "own-expression",
+        "source": [
+          "original",
+          "jaschke-1883",
+          "msu-basic-tibetan",
+          "ala-lc-2015"
+        ],
+        "use": "own-explanation",
+        "license": null,
+        "attributionRequired": false
+      }
+    }
+  ]
+}

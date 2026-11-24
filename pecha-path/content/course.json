@@ -19,10 +19,20 @@
     {
       "license": "CC BY-NC 4.0",
       "institution": "MSU Libraries Open Textbooks; Basic Tibetan (MSU / University of Wisconsin / Columbia University collaboration)",
-      "credit": "Jampa Khedup and Sonam Tsering, Basic Tibetan, 2026",
+      "credit": "Basic Tibetan. Copyright © 2026 Jampa Khedup and Sonam Tsering. Textbook authors: Jampa Khedup, Sonam Tsering, Rajiv Ranjan, Erlin Barnard.",
       "sourceURL": "https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/02/The-Thirty-consonants.m4a",
       "licenseURL": "https://creativecommons.org/licenses/by-nc/4.0/",
-      "changes": "Excerpt of ordered alphabet recording, AAC decoded to PCM16 WAV; no gain, speed, denoising or synthetic audio"
+      "changes": "Excerpt of ordered alphabet recording, AAC decoded to PCM16 WAV; no gain, speed, denoising or synthetic audio",
+      "chapterURL": "https://openbooks.lib.msu.edu/basictibetan/chapter/1-1/"
+    },
+    {
+      "license": "CC BY-NC 4.0",
+      "institution": "MSU Libraries Open Textbooks; Basic Tibetan (MSU / University of Wisconsin / Columbia University collaboration)",
+      "credit": "Basic Tibetan. Copyright © 2026 Jampa Khedup and Sonam Tsering. Textbook authors: Jampa Khedup, Sonam Tsering, Rajiv Ranjan, Erlin Barnard.",
+      "sourceURL": "https://openbooks.lib.msu.edu/app/uploads/sites/128/2025/04/The-Four-Vowels-with-Letter-%E0%BD%80-%E0%BD%98%E0%BC%8D.m4a",
+      "licenseURL": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "changes": "Excerpts of the four vowel formulas on ཀ (ཀི, ཀུ, ཀེ, ཀོ) from the ordered recording, AAC decoded to PCM16 WAV at 24 kHz; no gain, speed, denoising or synthetic audio",
+      "chapterURL": "https://openbooks.lib.msu.edu/basictibetan/chapter/1-3/"
     },
     {
       "license": "CC BY 4.0 (article and accompanying supplementary material; publisher says supplementary inherits article metadata)",
@@ -1425,6 +1435,30 @@
       "use": "own-explanation",
       "license": null,
       "attributionRequired": false
+    },
+    "pp-l03-example03": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
+    },
+    "pp-l03-example04": {
+      "rightsBasis": "own-expression",
+      "source": [
+        "original",
+        "jaschke-1883",
+        "msu-basic-tibetan",
+        "ala-lc-2015"
+      ],
+      "use": "own-explanation",
+      "license": null,
+      "attributionRequired": false
     }
   },
   "lessons": [
@@ -1747,6 +1781,58 @@
           "components": {
             "root": "ka",
             "vowel": "u"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        },
+        {
+          "id": "pp-l03-example03",
+          "unitId": "pp-vowel-04",
+          "tibetan": "ཀེ",
+          "wylie": "ke",
+          "analysis": {
+            "ru": "ཀེ: коренная ka и знак e над ней.",
+            "en": "ཀེ: root ka with sign e above it."
+          },
+          "components": {
+            "root": "ka",
+            "vowel": "e"
+          },
+          "provenance": {
+            "rightsBasis": "own-expression",
+            "source": [
+              "original",
+              "jaschke-1883",
+              "msu-basic-tibetan",
+              "ala-lc-2015"
+            ],
+            "use": "own-explanation",
+            "license": null,
+            "attributionRequired": false
+          }
+        },
+        {
+          "id": "pp-l03-example04",
+          "unitId": "pp-vowel-05",
+          "tibetan": "ཀོ",
+          "wylie": "ko",
+          "analysis": {
+            "ru": "ཀོ: коренная ka и знак o над ней.",
+            "en": "ཀོ: root ka with sign o above it."
+          },
+          "components": {
+            "root": "ka",
+            "vowel": "o"
           },
           "provenance": {
             "rightsBasis": "own-expression",
@@ -4728,7 +4814,10 @@
       },
       "audioRef": "pp-letter-003",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-003.wav",
+        "sha256": "5a38273aaad78960556c55e2e7d6ae5e35e3e7db7629c42da785d23f36e33aea",
+        "bytes": 40372
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -4754,7 +4843,10 @@
       },
       "audioRef": "pp-letter-004",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-004.wav",
+        "sha256": "e430cffe377a056cfe54a75269f64afb7ed198687e3af869a02172dcd120293f",
+        "bytes": 50498
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -4809,7 +4901,10 @@
       },
       "audioRef": "pp-letter-006",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-006.wav",
+        "sha256": "dbb2dce677f9162d0e7cb0056a4d3a03d5fe21a056f790e0434ef6ff0d66ec95",
+        "bytes": 39572
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -4835,7 +4930,10 @@
       },
       "audioRef": "pp-letter-007",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-007.wav",
+        "sha256": "8c030e379672224887ab854fc005cd92c721008c9e57eee85fc61d09fd375787",
+        "bytes": 43356
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -4919,7 +5017,10 @@
       },
       "audioRef": "pp-letter-010",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-010.wav",
+        "sha256": "4e741ebcf484885cdc99c54197d137d73c3900b793ae29369b98fc27ef499dce",
+        "bytes": 37020
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -4945,7 +5046,10 @@
       },
       "audioRef": "pp-letter-011",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-011.wav",
+        "sha256": "d3798b5a1b09e045b515229ca2e03780fbda0a37ddd5e4da8e4ba8bf3699bcf6",
+        "bytes": 39168
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -5029,7 +5133,10 @@
       },
       "audioRef": "pp-letter-014",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-014.wav",
+        "sha256": "ea89ab5b1a10124746a69e4d26c3edd0f2b6e73692fab5d31c85757e437091a7",
+        "bytes": 38102
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -5055,7 +5162,10 @@
       },
       "audioRef": "pp-letter-015",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-015.wav",
+        "sha256": "da351f119552fc79be351f28b4d9d9b9b96931142172eb7f30e0d82161e00b73",
+        "bytes": 39328
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -5139,7 +5249,10 @@
       },
       "audioRef": "pp-letter-018",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-018.wav",
+        "sha256": "7043a2d0d160f486d6f4344a194a420c74c74b280dd3c961eca34b0c9bae9895",
+        "bytes": 41104
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -5165,7 +5278,10 @@
       },
       "audioRef": "pp-letter-019",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-019.wav",
+        "sha256": "eff8e2634a4cc395b6551f4202b73ff0dbdd45d465da2b1c940f9942981669a5",
+        "bytes": 41668
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -5220,7 +5336,10 @@
       },
       "audioRef": "pp-letter-021",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-021.wav",
+        "sha256": "a02dcc0e9bb1e7bea27ebbb1f6f09562841b04460e2de00e67749d2566a80d7e",
+        "bytes": 48932
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -5246,7 +5365,10 @@
       },
       "audioRef": "pp-letter-022",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-022.wav",
+        "sha256": "c03a6642102caeef76d50f9608656fbe490930bef859bafaa00f8f91d8ab9197",
+        "bytes": 44840
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -5272,7 +5394,10 @@
       },
       "audioRef": "pp-letter-023",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-023.wav",
+        "sha256": "67fa3815eca516ace9cd824dcabe490a2a21ee3e56dc9a2dd63da7db4e4feaec",
+        "bytes": 38548
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -5356,7 +5481,10 @@
       },
       "audioRef": "pp-letter-026",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-026.wav",
+        "sha256": "a2d32811edb7baac95cc97a0bd21e3cb47ae23c511db6c1c5c92a6779f4537f1",
+        "bytes": 38678
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -5382,7 +5510,10 @@
       },
       "audioRef": "pp-letter-027",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-027.wav",
+        "sha256": "43afa15199e886a6ed1eaeafb33c55d80f0889ab3b328866afafa12109c4bad8",
+        "bytes": 47894
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -5408,7 +5539,10 @@
       },
       "audioRef": "pp-letter-028",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-letter-028.wav",
+        "sha256": "759949b5ae8a1781c72cc7ec81d8a595a23d8650f22c457416cf4df3e09cbd2b",
+        "bytes": 48402
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -5492,7 +5626,10 @@
       },
       "audioRef": "pp-vowel-02",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-vowel-02.wav",
+        "sha256": "2f628a70fdbfcce74c3aacdc74127b1f63a94439bb348d28efc5e389d79b7a3f",
+        "bytes": 30130
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -5518,7 +5655,10 @@
       },
       "audioRef": "pp-vowel-03",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-vowel-03.wav",
+        "sha256": "4280868596c71c10ed3d87abab46762250991d3610978e7e6eb5ffc27b481522",
+        "bytes": 28952
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -5544,7 +5684,10 @@
       },
       "audioRef": "pp-vowel-04",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-vowel-04.wav",
+        "sha256": "1e9aca88adb5434cfb10395bb8a360ce1b36b4befa617344d9c27153862605c8",
+        "bytes": 30280
       },
       "provenance": {
         "rightsBasis": "own-expression",
@@ -5570,7 +5713,10 @@
       },
       "audioRef": "pp-vowel-05",
       "audio": {
-        "status": "missing"
+        "status": "available",
+        "path": "audio/clips/pp-vowel-05.wav",
+        "sha256": "2784ae1e55d54f44abb8392ad7111b0d34614920ede09a337460b76bf8895be1",
+        "bytes": 26284
       },
       "provenance": {
         "rightsBasis": "own-expression",
