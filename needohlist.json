@@ -1,0 +1,46 @@
+{
+  "updated": "2026-11-26",
+  "title": "NeeDoh Checklist Privacy Policy",
+  "description": "How NeeDoh Checklist handles your collection, photos, exports, purchases and support emails.",
+  "sections": [
+    [
+      "About this policy",
+      [
+        "NeeDoh Checklist is a Tidelab app. This policy explains how the app and this page handle your information. You can contact us at tidelab.apps@gmail.com."
+      ]
+    ],
+    [
+      "Your collection and photos",
+      [
+        "The app stores your collection records, wishlist, photos you attach and app preferences on your device. The app processes selected photos on your device. Your collection and photos are not uploaded to Tidelab. The app has no Tidelab account, automatic cloud sync, advertising, analytics or tracking.",
+        "You can edit or delete records in the app. Local recovery copies can still contain earlier records and photos, including ones you removed from the current collection. To remove the app’s local data and recovery copies, delete the app from your device. System backups may contain app data depending on your device settings. You manage those backups separately. Tidelab does not receive them."
+      ]
+    ],
+    [
+      "Files you export, import or share",
+      [
+        "If you choose to export a full ZIP backup, it includes collection records and attached photos. A CSV spreadsheet export contains records without photos. If you share your wishlist as text, the system share sheet lets you choose the destination or recipient.",
+        "The app reads files you select for import and prepares exports on your device. A Files provider such as iCloud Drive or a service you choose for sharing may transfer or store copies under its own privacy policy. Deleting a record or the app does not remove exported or shared copies. You manage those copies where you saved or shared them."
+      ]
+    ],
+    [
+      "Purchases through Apple",
+      [
+        "Apple processes purchases and handles billing details. The app uses Apple’s StoreKit to check transactions and unlock or restore paid access. Tidelab does not receive your payment card details. Apple handles purchases and its device services under its privacy policy: https://www.apple.com/legal/privacy/."
+      ]
+    ],
+    [
+      "Support email and deletion requests",
+      [
+        "If you choose to email support, Tidelab receives your email address, message and anything you attach. We use this information to respond to your request and keep correspondence as needed to handle the request and related follow-up. Our support mailbox uses Gmail. Google and your email provider process correspondence under their own policies. See Google’s privacy policy at https://policies.google.com/privacy.",
+        "For privacy questions or to request deletion of correspondence held by Tidelab, email tidelab.apps@gmail.com. Please avoid including private photos or collection files unless they are needed to explain the issue."
+      ]
+    ],
+    [
+      "Website hosting",
+      [
+        "GitHub Pages hosts this policy. Tidelab adds no analytics, tracking cookies or forms to this page. GitHub logs visitors’ IP addresses for security, including visits without a GitHub account. See GitHub’s privacy statement at https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement."
+      ]
+    ]
+  ]
+}

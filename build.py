@@ -448,6 +448,16 @@ the station,la gare</pre>
             self.shell(f"countsession/{kind}/index.html", "en", page["title"], "CountSession",
                        None, body, page["description"])
 
+    def needohlist_privacy(self) -> None:
+        page = json.loads((HERE / "needohlist.json").read_text(encoding="utf-8"))
+        body = self.document(page["title"], "Last updated", page["updated"], page["sections"], "")
+        path = "needohlist/privacy/index.html"
+        self.shell(path, "en", page["title"], "NeeDoh Checklist", None, body, page["description"])
+        self.files[path] = self.files[path].replace(
+            "</head>",
+            '<link rel="canonical" href="https://tidelab-apps.github.io/needohlist/privacy/">\n</head>',
+        )
+
     def gtaprogressguide_pages(self) -> None:
         """Local review drafts; publication requires a separate authorized gate."""
         data = json.loads((HERE / "gtaprogressguide.json").read_text(encoding="utf-8"))
@@ -490,6 +500,7 @@ the station,la gare</pre>
         self.jpegceiling_pages()
         self.srtcheck_pages()
         self.countsession_pages()
+        self.needohlist_privacy()
         self.gtaprogressguide_pages()
         self.not_found()
 
